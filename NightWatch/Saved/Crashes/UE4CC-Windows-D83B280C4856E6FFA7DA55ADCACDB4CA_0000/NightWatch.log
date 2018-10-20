@@ -1,0 +1,1100 @@
+﻿Log file open, 10/20/18 01:36:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NightWatch
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.910713
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.130s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.20-05.36.37:032][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.20-05.36.37:032][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.20-05.36.37:055][  0]LogHAL: Display: Platform has ~ 16 GB [17129394176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.20-05.36.37:055][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.20-05.36.37:055][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.20-05.36.37:059][  0]LogInit: Computer: ARTHUR
+[2018.10.20-05.36.37:060][  0]LogInit: User: Ian
+[2018.10.20-05.36.37:060][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.20-05.36.37:060][  0]LogInit: High frequency timer resolution =3.027353 MHz
+[2018.10.20-05.36.37:060][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.10.20-05.36.37:060][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.20-05.36.37:060][  0]LogMemory: Process Physical Memory: 103.75 MB used, 103.75 MB peak
+[2018.10.20-05.36.37:060][  0]LogMemory: Process Virtual Memory: 100.41 MB used, 100.41 MB peak
+[2018.10.20-05.36.37:060][  0]LogMemory: Physical Memory: 6528.47 MB used,  9807.39 MB free, 16335.86 MB total
+[2018.10.20-05.36.37:060][  0]LogMemory: Virtual Memory: 4641.91 MB used,  9807.39 MB free, 134217728.00 MB total
+[2018.10.20-05.36.37:676][  0]LogInit: Using OS detected language (en-US).
+[2018.10.20-05.36.37:676][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.20-05.36.37:677][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.20-05.36.38:163][  0]LogStreaming: Display: Took  0.488s to InitEngineTextLocalization.
+[2018.10.20-05.36.38:164][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.20-05.36.38:164][  0]LogInit: Warning: SetProcessDpiAwareness failed.  Error code 80070005
+[2018.10.20-05.36.38:275][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.20-05.36.38:275][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.20-05.36.40:630][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.20-05.36.40:630][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.20-05.36.40:712][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.10.20-05.36.40:712][  0]LogD3D11RHI:       8079/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.20-05.36.40:714][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.20-05.36.40:714][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.20-05.36.40:714][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.20-05.36.40:725][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.20-05.36.40:725][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.20-05.36.40:725][  0]LogWindows: EnumDisplayDevices:
+[2018.10.20-05.36.40:725][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.10.20-05.36.40:725][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.20-05.36.40:726][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.20-05.36.40:726][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.20-05.36.40:726][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.20-05.36.40:726][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.10.20-05.36.40:726][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.10.20-05.36.40:726][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.10.20-05.36.40:727][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.10.20-05.36.40:780][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.20-05.36.40:827][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.20-05.36.40:876][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2018.10.20-05.36.40:876][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../SourceTree/NightWatch/NightWatch/Intermediate/Shaders/WorkingDirectory/12152/).
+[2018.10.20-05.36.40:876][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ian/AppData/Local/Temp/UnrealShaderWorkingDir/CD948C314ADC141406C0CE99626B4C12/'.
+[2018.10.20-05.36.41:588][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.20-05.36.41:629][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.20-05.36.41:662][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.20-05.36.41:702][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.20-05.36.41:742][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.20-05.36.41:780][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.20-05.36.41:817][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.20-05.36.41:847][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.20-05.36.41:874][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:017][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.20-05.36.42:034][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.20-05.36.42:212][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.20-05.36.42:212][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.20-05.36.42:266][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.20-05.36.42:266][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.20-05.36.42:308][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.20-05.36.42:344][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.20-05.36.42:417][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.20-05.36.42:467][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.20-05.36.42:532][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.20-05.36.42:532][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.20-05.36.43:605][  0]LogXGEController: Cleaning working directory: C:/Users/Ian/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.20-05.36.43:605][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.20-05.36.43:605][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.20-05.36.43:605][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.20-05.36.45:717][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.20-05.36.45:844][  0]LogDerivedDataCache: Loaded boot cache 0.13s 71MB C:/Users/Ian/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.20-05.36.45:846][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ian/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.20-05.36.45:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../SourceTree/NightWatch/NightWatch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.20-05.36.45:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.20-05.36.45:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../SourceTree/NightWatch/NightWatch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.20-05.36.45:846][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.20-05.36.45:867][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.20-05.36.45:880][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.20-05.36.45:880][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.20-05.36.45:880][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.20-05.36.45:903][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.20-05.36.45:904][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.20-05.36.45:919][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.20-05.36.46:129][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.10.20-05.36.46:489][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.20-05.36.47:148][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.20-05.36.47:253][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.20-05.36.47:253][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.20-05.36.47:253][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.20-05.36.47:253][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.20-05.36.47:305][  0]LogNetVersion: NightWatch 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171399734)
+[2018.10.20-05.36.48:331][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.111465 seconds
+[2018.10.20-05.36.48:338][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.20-05.36.48:338][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.20-05.36.48:338][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.20-05.36.52:855][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.20-05.36.52:910][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.20-05.36.53:921][  0]SourceControl: Source control is disabled
+[2018.10.20-05.36.53:921][  0]SourceControl: Source control is disabled
+[2018.10.20-05.36.54:264][  0]SourceControl: Source control is disabled
+[2018.10.20-05.36.54:424][  0]SourceControl: Source control is disabled
+[2018.10.20-05.36.57:137][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.20-05.36.57:460][  0]LogOcInput: OculusInput pre-init called
+[2018.10.20-05.36.57:717][  0]LogEngine: Initializing Engine...
+[2018.10.20-05.36.57:718][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.20-05.36.57:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.20-05.36.57:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.20-05.36.57:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.20-05.36.57:720][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.20-05.36.57:959][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.20-05.36.58:018][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.20-05.36.58:103][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.20-05.36.58:139][  0]LogInit: FAudioDevice initialized.
+[2018.10.20-05.36.58:139][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.20-05.36.58:236][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Ian/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.20-05.36.58:239][  0]LogInit: Texture streaming: Enabled
+[2018.10.20-05.36.58:406][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.20-05.36.58:456][  0]LogInit: Transaction tracking system initialized
+[2018.10.20-05.36.58:750][  0]BlueprintLog: New page: Editor Load
+[2018.10.20-05.37.00:007][  0]LocalizationService: Localization service is disabled
+[2018.10.20-05.37.00:868][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.20-05.37.00:868][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.20-05.37.00:868][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.20-05.37.00:868][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.20-05.37.00:868][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.20-05.37.00:868][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.20-05.37.00:868][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.20-05.37.00:937][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Content/' took 0.02s
+[2018.10.20-05.37.02:035][  0]SourceControl: Source control is disabled
+[2018.10.20-05.37.02:035][  0]Cmd: MAP LOAD FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.20-05.37.02:036][  0]LightingResults: New page: Lighting Build
+[2018.10.20-05.37.02:038][  0]MapCheck: New page: Map Check
+[2018.10.20-05.37.02:038][  0]LightingResults: New page: Lighting Build
+[2018.10.20-05.37.02:700][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.20-05.37.02:717][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.20-05.37.02:744][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.20-05.37.02:821][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.245ms to complete.
+[2018.10.20-05.37.02:821][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.786
+[2018.10.20-05.37.02:997][  0]LogCollectionManager: Loaded 0 collections in 0.001357 seconds
+[2018.10.20-05.37.03:039][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Saved/Collections/' took 0.01s
+[2018.10.20-05.37.03:039][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Content/Developers/Ian/Collections/' took 0.01s
+[2018.10.20-05.37.03:039][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Content/Collections/' took 0.01s
+[2018.10.20-05.37.03:039][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.20-05.37.03:050][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2572 classes and 603 folders.
+[2018.10.20-05.37.03:057][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.20-05.37.03:402][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.20-05.37.03:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.37.03:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.37.03:439][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.37.03:447][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.37.03:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.20-05.37.03:592][  0]LogSlate: Took 0.007724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.20-05.37.03:601][  0]LogSlate: Took 0.004979 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.20-05.37.03:608][  0]LogSlate: Took 0.005817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.20-05.37.03:653][  0]LogSlate: Took 0.004287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.20-05.37.03:724][  0]LogRenderer: Reallocating scene render targets to support 1248x964 Format 10 NumSamples 1 (Frame:1).
+[2018.10.20-05.37.04:133][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.20-05.37.04:133][  0]LogLoad: (Engine Initialization) Total time: 32.23 seconds
+[2018.10.20-05.37.04:133][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.20-05.37.04:166][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.20-05.37.04:208][  1]LogAssetRegistry: Asset discovery search completed in 18.1016 seconds
+[2018.10.20-05.37.04:209][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.20-05.37.04:209][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.10.20-05.37.05:196][ 46]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.20-05.37.31:891][191]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.37.32:014][206]LogSlate: Window 'Message Log' being destroyed
+[2018.10.20-05.37.32:083][206]LogSlate: Window 'Message Log' being destroyed
+[2018.10.20-05.37.33:620][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.37.33:744][351]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-05.37.33:765][351]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.37.33:765][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-05.37.33:777][351]PIE: New page: PIE session: TopDownExampleMap (Oct 19, 2018, 9:37:33 PM)
+[2018.10.20-05.37.33:778][351]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.10.20-05.37.33:811][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033840s)
+[2018.10.20-05.37.33:812][351]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.20-05.37.33:812][351]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2018.10.20-05.37.33:812][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.034935s)
+[2018.10.20-05.37.33:849][351]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.20-05.37.33:875][351]LogInit: FAudioDevice initialized.
+[2018.10.20-05.37.33:923][351]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.20-05.37.33:928][351]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.10.20-01.37.33
+[2018.10.20-05.37.33:973][351]LogWorld: Bringing up level for play took: 0.049006
+[2018.10.20-05.37.33:989][351]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.20-05.37.33:991][351]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.071
+[2018.10.20-05.37.33:991][351]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.39.10:390][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.20-05.39.22:558][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/NightWatchChar.NightWatchChar
+[2018.10.20-05.39.23:051][985]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.10.20-05.39.23:953][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GodCam.GodCam
+[2018.10.20-05.39.24:320][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2018.10.20-05.39.24:659][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/HUD_EdgeScrolling.HUD_EdgeScrolling
+[2018.10.20-05.39.25:035][985]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GodCam1.GodCam1
+[2018.10.20-05.39.25:392][985]LogSlate: Took 0.006049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.20-05.39.25:576][986]LogSlate: Took 0.006608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.20-05.39.26:364][ 20]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.39.26:365][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.39.26:407][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-05.39.26:408][ 20]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.39.26:448][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.39.26:481][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.10.20-05.39.31:387][171]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.20-05.39.31:528][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.20-05.39.31:606][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.20-05.39.31:680][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.20-05.39.31:752][171]LogSlate: Window 'GodCam1' being destroyed
+[2018.10.20-05.39.31:828][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.20-05.39.36:289][498]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-05.39.36:317][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.39.36:317][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-05.39.36:317][498]PIE: New page: PIE session: TopDownExampleMap (Oct 19, 2018, 9:39:36 PM)
+[2018.10.20-05.39.36:317][498]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.10.20-05.39.36:333][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015883s)
+[2018.10.20-05.39.36:334][498]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.20-05.39.36:334][498]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2018.10.20-05.39.36:334][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.016962s)
+[2018.10.20-05.39.36:376][498]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.20-05.39.36:402][498]LogInit: FAudioDevice initialized.
+[2018.10.20-05.39.36:436][498]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.20-05.39.36:441][498]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.10.20-01.39.36
+[2018.10.20-05.39.36:442][498]LogWorld: Bringing up level for play took: 0.004711
+[2018.10.20-05.39.36:455][498]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.464
+[2018.10.20-05.39.36:455][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.39.49:862][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.39.49:954][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.39.49:954][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.39.49:990][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-05.39.49:991][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.39.50:022][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.39.50:056][100]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2018.10.20-05.39.53:066][454]LogEditorViewport: Clicking on Actor (LMB): NightWatchChar_C (TopDownCharacter2)
+[2018.10.20-05.39.54:135][564]Cmd: DELETE
+[2018.10.20-05.39.54:135][564]Cmd: ACTOR DELETE
+[2018.10.20-05.39.54:140][564]LogEditorActor: Deleted Actor: NightWatchChar_C
+[2018.10.20-05.39.54:171][564]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2018.10.20-05.39.55:083][672]LogEditorViewport: Clicking on Actor (LMB): NightWatchChar_C (TopDownCharacter)
+[2018.10.20-05.39.55:206][676]Cmd: DELETE
+[2018.10.20-05.39.55:206][676]Cmd: ACTOR DELETE
+[2018.10.20-05.39.55:209][676]LogEditorActor: Deleted Actor: NightWatchChar_C
+[2018.10.20-05.39.55:239][676]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2018.10.20-05.39.56:097][778]LogEditorViewport: Clicking on Actor (LMB): NightWatchChar_C (TopDownCharacter4)
+[2018.10.20-05.39.56:228][783]Cmd: DELETE
+[2018.10.20-05.39.56:228][783]Cmd: ACTOR DELETE
+[2018.10.20-05.39.56:231][783]LogEditorActor: Deleted Actor: NightWatchChar_C
+[2018.10.20-05.39.56:262][783]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.10.20-05.39.57:316][909]LogEditorViewport: Clicking on Actor (LMB): NightWatchChar_C (TopDownCharacter3)
+[2018.10.20-05.39.57:494][919]Cmd: DELETE
+[2018.10.20-05.39.57:494][919]Cmd: ACTOR DELETE
+[2018.10.20-05.39.57:497][919]LogEditorActor: Deleted Actor: NightWatchChar_C
+[2018.10.20-05.39.57:528][919]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2018.10.20-05.39.58:958][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.41.18:621][694]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Coroner.Coroner
+[2018.10.20-05.41.46:936][883]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Coroner" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/Coroner.uasset" SILENT=true
+[2018.10.20-05.41.46:966][883]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Coroner5C439E414EA5A5258832D698B3785056.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/Coroner.uasset'
+[2018.10.20-05.42.03:116][161]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Muscle.Muscle
+[2018.10.20-05.42.06:519][376]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Toxicologist.Toxicologist
+[2018.10.20-05.42.08:922][508]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Detective.Detective
+[2018.10.20-05.43.24:242][491]LogSlate: Window 'Detective*' being destroyed
+[2018.10.20-05.43.24:305][491]LogSlate: Window 'Detective*' being destroyed
+[2018.10.20-05.43.24:384][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.20-05.43.24:444][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.20-05.43.24:504][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.20-05.43.29:238][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.43.32:441][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.43.37:652][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.44.08:682][106]LogEditorViewport: Clicking on Actor (LMB): Toxicologist_C (Toxicologist)
+[2018.10.20-05.44.10:344][272]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.44.10:450][284]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-05.44.10:477][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.44.10:478][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.20-05.44.10:478][284]PIE: New page: PIE session: TopDownExampleMap (Oct 19, 2018, 9:44:10 PM)
+[2018.10.20-05.44.10:478][284]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.10.20-05.44.10:498][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020370s)
+[2018.10.20-05.44.10:499][284]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.20-05.44.10:499][284]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.10.20-05.44.10:499][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021360s)
+[2018.10.20-05.44.10:548][284]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.20-05.44.10:575][284]LogInit: FAudioDevice initialized.
+[2018.10.20-05.44.10:605][284]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.20-05.44.10:609][284]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.10.20-01.44.10
+[2018.10.20-05.44.10:610][284]LogWorld: Bringing up level for play took: 0.004186
+[2018.10.20-05.44.10:623][284]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.296
+[2018.10.20-05.44.10:623][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.44.27:677][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.44.27:677][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.44.27:713][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-05.44.27:714][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.44.27:745][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.44.27:779][315]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.20-05.44.35:232][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.20-05.44.35:436][103]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2018.10.20-05.44.56:758][989]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/NightWatchChar.NightWatchChar
+[2018.10.20-05.45.44:490][841]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/GodCam.GodCam
+[2018.10.20-05.49.33:691][294]BlueprintLog: New page: Compile GodCam
+[2018.10.20-05.49.39:313][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GodCam" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/GodCam.uasset" SILENT=true
+[2018.10.20-05.49.39:405][640]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/GodCamC859BA374E55C4D4A11006812A65ABB6.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Content/GodCam.uasset'
+[2018.10.20-05.49.59:718][181]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.20-05.49.59:756][181]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.49.59:756][181]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.20-05.49.59:786][181]LogPlayLevel: [PlayLevel] Compiling GodCam before play...
+[2018.10.20-05.49.59:988][181]LogPlayLevel: [PlayLevel] Compiling TopDownController before play...
+[2018.10.20-05.50.00:170][181]LogPlayLevel: PlayLevel: Blueprint regeneration took 413 ms (2 blueprints)
+[2018.10.20-05.50.00:170][181]PIE: New page: PIE session: TopDownExampleMap (Oct 19, 2018, 9:50:00 PM)
+[2018.10.20-05.50.00:170][181]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2018.10.20-05.50.00:190][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019272s)
+[2018.10.20-05.50.00:191][181]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.20-05.50.00:191][181]LogPlayLevel: PIE: World Init took: (0.001560s)
+[2018.10.20-05.50.00:192][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.021051s)
+[2018.10.20-05.50.00:244][181]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.20-05.50.00:271][181]LogInit: FAudioDevice initialized.
+[2018.10.20-05.50.00:305][181]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.20-05.50.00:310][181]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2018.10.20-01.50.00
+[2018.10.20-05.50.00:311][181]LogWorld: Bringing up level for play took: 0.004765
+[2018.10.20-05.50.00:324][181]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.404
+[2018.10.20-05.50.00:325][181]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.50.00:325][181]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:325][181]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:473][182]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:473][182]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:488][183]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:489][183]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:500][184]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:500][184]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:511][185]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:511][185]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:522][186]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:522][186]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:535][187]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:535][187]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:546][188]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:546][188]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:557][189]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:557][189]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:569][190]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:569][190]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:580][191]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:580][191]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:591][192]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:591][192]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:602][193]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:602][193]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:613][194]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:613][194]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:624][195]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:624][195]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:636][196]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:636][196]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:647][197]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:647][197]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:658][198]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:659][198]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:670][199]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:670][199]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:681][200]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:681][200]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:719][201]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:719][201]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:730][202]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:730][202]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:742][203]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:742][203]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:753][204]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:753][204]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:764][205]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:764][205]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:775][206]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:775][206]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:786][207]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:786][207]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:797][208]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:797][208]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:809][209]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:809][209]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:821][210]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:821][210]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:832][211]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:832][211]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:843][212]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:843][212]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:854][213]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:854][213]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:865][214]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:865][214]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:876][215]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:876][215]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:887][216]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:888][216]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:899][217]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:899][217]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:910][218]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:910][218]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:922][219]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:922][219]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:933][220]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:933][220]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:944][221]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:945][221]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:956][222]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:956][222]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:967][223]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:967][223]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:978][224]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:978][224]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.00:990][225]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.00:990][225]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:002][226]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:002][226]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:014][227]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:014][227]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:025][228]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:026][228]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:038][229]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:038][229]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:049][230]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:049][230]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:060][231]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:060][231]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:072][232]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:072][232]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:084][233]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:084][233]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:095][234]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:095][234]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:107][235]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:107][235]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:118][236]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:118][236]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:129][237]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:129][237]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:141][238]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:141][238]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:153][239]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:153][239]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:164][240]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:164][240]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:176][241]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:176][241]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:189][242]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:189][242]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:201][243]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:201][243]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:212][244]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:212][244]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:223][245]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:223][245]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:235][246]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:235][246]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:246][247]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:246][247]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:257][248]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:258][248]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:269][249]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:270][249]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:281][250]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:281][250]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:293][251]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:293][251]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:304][252]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:304][252]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:315][253]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:316][253]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:327][254]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:327][254]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:339][255]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:339][255]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:351][256]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:351][256]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:362][257]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:363][257]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:374][258]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:374][258]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:386][259]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:386][259]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:398][260]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:398][260]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:410][261]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:410][261]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:422][262]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:422][262]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:434][263]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:434][263]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:446][264]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:446][264]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:457][265]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:457][265]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:469][266]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:470][266]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:481][267]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:481][267]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:493][268]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:493][268]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:505][269]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:505][269]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:517][270]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:517][270]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:528][271]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:528][271]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:541][272]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:542][272]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:554][273]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:554][273]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:566][274]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:566][274]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:578][275]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:578][275]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:590][276]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:590][276]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:603][277]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:603][277]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:615][278]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:615][278]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:627][279]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:627][279]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:640][280]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:640][280]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:652][281]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:652][281]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:665][282]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:665][282]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:677][283]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:678][283]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:690][284]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:690][284]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:702][285]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:702][285]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:713][286]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:713][286]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:724][287]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:724][287]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:736][288]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:736][288]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:746][289]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:746][289]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:757][290]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:757][290]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:769][291]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:769][291]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:779][292]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:780][292]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:790][293]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:790][293]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:802][294]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:802][294]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:812][295]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:813][295]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:823][296]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:823][296]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:835][297]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:835][297]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:845][298]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:846][298]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:856][299]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:856][299]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:867][300]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:868][300]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:878][301]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:878][301]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:889][302]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:889][302]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:901][303]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:901][303]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:912][304]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:912][304]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:924][305]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:924][305]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:935][306]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:936][306]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:946][307]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:946][307]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:957][308]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:957][308]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:969][309]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:969][309]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:979][310]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:980][310]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.01:991][311]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.01:991][311]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:004][312]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:004][312]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:015][313]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:015][313]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:027][314]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:027][314]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:039][315]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:039][315]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:052][316]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:052][316]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:064][317]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:064][317]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:075][318]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:075][318]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:087][319]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:087][319]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:099][320]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:099][320]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:111][321]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:111][321]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:123][322]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:123][322]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:135][323]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:135][323]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:147][324]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:147][324]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:159][325]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:159][325]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:171][326]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:171][326]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:183][327]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:183][327]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:195][328]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:195][328]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:207][329]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:207][329]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:218][330]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:218][330]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:230][331]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:230][331]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:241][332]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:241][332]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:252][333]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:252][333]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:263][334]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:263][334]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:274][335]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:274][335]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:286][336]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:286][336]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:298][337]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:298][337]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:310][338]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:310][338]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:322][339]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:322][339]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:333][340]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:333][340]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:345][341]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:346][341]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:357][342]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:358][342]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:369][343]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:369][343]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:381][344]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:381][344]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:393][345]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:393][345]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:404][346]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:404][346]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:415][347]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:415][347]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:427][348]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:427][348]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:438][349]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:438][349]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:450][350]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:450][350]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:462][351]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:462][351]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:473][352]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:474][352]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:485][353]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:485][353]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:496][354]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:497][354]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:508][355]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:508][355]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:519][356]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:519][356]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:530][357]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:530][357]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:541][358]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:542][358]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:552][359]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:552][359]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:563][360]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:563][360]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:575][361]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:575][361]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:586][362]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:586][362]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:596][363]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:596][363]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:607][364]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:607][364]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:619][365]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:619][365]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:629][366]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:630][366]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:641][367]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:641][367]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:652][368]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:652][368]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:663][369]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:663][369]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:674][370]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:674][370]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:685][371]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:685][371]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:696][372]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:696][372]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:707][373]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:707][373]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:718][374]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:718][374]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:729][375]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:729][375]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:741][376]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:741][376]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:752][377]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:752][377]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:764][378]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:764][378]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:776][379]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:776][379]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:788][380]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:788][380]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:800][381]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:800][381]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:812][382]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:812][382]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:823][383]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:823][383]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:834][384]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:834][384]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:846][385]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:846][385]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:857][386]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:857][386]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:868][387]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:869][387]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:880][388]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:880][388]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:892][389]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:892][389]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:904][390]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:904][390]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:915][391]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:915][391]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:926][392]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:926][392]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:938][393]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:938][393]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:950][394]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:950][394]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:960][395]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:960][395]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:972][396]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:972][396]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:983][397]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:983][397]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.02:995][398]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.02:995][398]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:007][399]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:007][399]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:017][400]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:017][400]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:029][401]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:029][401]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:040][402]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:040][402]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:051][403]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:051][403]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:062][404]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:063][404]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:074][405]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:074][405]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:085][406]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:085][406]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:096][407]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:096][407]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:108][408]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:108][408]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:118][409]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:118][409]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:129][410]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:130][410]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:142][411]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:142][411]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:153][412]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:153][412]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:164][413]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:164][413]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:175][414]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:176][414]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:187][415]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:187][415]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:198][416]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:198][416]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:211][417]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:211][417]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:222][418]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:223][418]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:234][419]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:234][419]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:247][420]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:247][420]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:258][421]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:258][421]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:270][422]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:270][422]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:282][423]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:282][423]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:294][424]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:294][424]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:306][425]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:306][425]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:318][426]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:318][426]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:330][427]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:330][427]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:342][428]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:343][428]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:354][429]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:354][429]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:366][430]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:366][430]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:378][431]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:378][431]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:390][432]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:390][432]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:401][433]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:402][433]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:413][434]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:414][434]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:425][435]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:425][435]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:437][436]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:437][436]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:449][437]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:449][437]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:462][438]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:462][438]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:474][439]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:474][439]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:485][440]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:486][440]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:498][441]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:498][441]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:510][442]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:510][442]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:522][443]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:522][443]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:534][444]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:534][444]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:545][445]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:546][445]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:558][446]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:558][446]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:570][447]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:570][447]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:582][448]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:582][448]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:594][449]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:594][449]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:606][450]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:607][450]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:619][451]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:619][451]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:631][452]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:631][452]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:643][453]LogBlueprintUserMessages: [GodCam_C_0] Hello
+[2018.10.20-05.50.03:643][453]LogBlueprintUserMessages: [GodCam_2] Hello
+[2018.10.20-05.50.03:644][453]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.50.03:644][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.50.03:684][453]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.20-05.50.03:685][453]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2018.10.20-05.50.03:722][453]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.20-05.50.03:767][454]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.20-05.50.47:541][821]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/TopDownExampleMap_Auto14F453BFE44D041DCB35D77B35EA14E28.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2018.10.20-05.50.47:546][821]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 0.281
+[2018.10.20-05.50.47:546][821]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.281
+[2018.10.20-05.50.47:549][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/GodCam] ([1] browsable assets)...
+[2018.10.20-05.50.47:549][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/GodCam]
+[2018.10.20-05.50.47:549][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GodCam" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/GodCam_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.10.20-05.50.47:634][821]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/GodCam_Auto1DC2034824A4A9EDF268FFDB825256F4C.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/GodCam_Auto1.uasset'
+[2018.10.20-05.50.47:636][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.10.20-05.50.47:636][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.10.20-05.50.47:683][821]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/TopDownController_Auto15AECE7D14D40ABE3C77705A40D7264FA.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto1.uasset'
+[2018.10.20-05.50.47:685][821]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Toxicologist] ([1] browsable assets)...
+[2018.10.20-05.50.47:707][821]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Toxicologist.Toxicologist]
+[2018.10.20-05.50.47:707][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Toxicologist]
+[2018.10.20-05.50.47:739][821]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Toxicologist_Auto163A5D6BD45F0A2F42B70128872DD54C6.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/Toxicologist_Auto1.uasset'
+[2018.10.20-05.50.47:741][821]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/Coroner] ([1] browsable assets)...
+[2018.10.20-05.50.47:741][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Coroner]
+[2018.10.20-05.50.48:193][821]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Coroner_Auto197E042694D2239A2A76548BE0E183084.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/Coroner_Auto1.uasset'
+[2018.10.20-05.50.48:195][821]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Detective] ([1] browsable assets)...
+[2018.10.20-05.50.48:209][821]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Detective.Detective]
+[2018.10.20-05.50.48:209][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Detective]
+[2018.10.20-05.50.48:242][821]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Detective_Auto1F483EAC14FE60262757539833DBB2E37.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/Detective_Auto1.uasset'
+[2018.10.20-05.50.48:243][821]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Muscle] ([1] browsable assets)...
+[2018.10.20-05.50.48:259][821]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/Muscle.Muscle]
+[2018.10.20-05.50.48:259][821]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Muscle]
+[2018.10.20-05.50.48:292][821]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Muscle_Auto1FD22F9AD471660BE732AC7BFA08489F2.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/Muscle_Auto1.uasset'
+[2018.10.20-05.50.48:293][821]LogFileHelpers: Auto-saving content packages took 0.744
+[2018.10.20-05.56.42:421][281]LogEditorTransaction: Undo Move Node
+[2018.10.20-05.56.43:654][329]LogEditorTransaction: Undo Create Reroute Node
+[2018.10.20-05.58.42:230][825]LogUObjectArray: Warning: Other object in slot
+[2018.10.20-05.58.44:893][825]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.259 s
+[2018.10.20-05.58.44:893][825]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.20-05.58.44:893][825]LogOutputDevice: Error: 
+[2018.10.20-05.58.44:893][825]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.10.20-05.58.44:893][825]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.10.20-05.58.44:893][825]LogOutputDevice: Error: Stack: 
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0cf271e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0cc60c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0cc7b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff9e1ee11db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff9e1ef060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0b20da3a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff9f1a5ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff9f1a1f337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0c588204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0c7ce933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0c5e281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0c5b8190 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa0c5ab073 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa25c3d007 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa25c30270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa25c3f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa25c2c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa530a6cc1 USER32.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa530a6693 USER32.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa25c40646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff6270554e5 UE4Editor.exe!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff627065b3c UE4Editor.exe!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff627065bba UE4Editor.exe!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff627073dac UE4Editor.exe!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ff627075aaa UE4Editor.exe!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa55063034 KERNEL32.DLL!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: [Callstack] 0x00007ffa55841461 ntdll.dll!UnknownFunction []
+[2018.10.20-05.58.44:894][825]LogOutputDevice: Error: 
+[2018.10.20-05.58.44:913][825]LogStats:                SubmitErrorReport -  0.013 s
