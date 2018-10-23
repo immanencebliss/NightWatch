@@ -1,4 +1,4 @@
-﻿Log file open, 10/22/18 18:46:37
+﻿Log file open, 10/22/18 19:15:05
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: NightWatch
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.880276
+LogStats: Stats thread started at 0.821720
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.139s to configure plugins.
+LogStreaming: Display: Took  0.122s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -150,505 +150,918 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.10.22-22.46.38:086][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.22-22.46.38:086][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.10.22-22.46.38:113][  0]LogHAL: Display: Platform has ~ 32 GB [34329395200 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.10.22-22.46.38:113][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.10.22-22.46.38:113][  0]LogInit: Going up to parent DeviceProfile []
-[2018.10.22-22.46.38:117][  0]LogInit: Computer: SJH607-O3W
-[2018.10.22-22.46.38:117][  0]LogInit: User: Graphic
-[2018.10.22-22.46.38:117][  0]LogInit: CPU Page size=4096, Cores=12
-[2018.10.22-22.46.38:117][  0]LogInit: High frequency timer resolution =2.636718 MHz
-[2018.10.22-22.46.38:118][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
-[2018.10.22-22.46.38:118][  0]LogMemory: Platform Memory Stats for Windows
-[2018.10.22-22.46.38:118][  0]LogMemory: Process Physical Memory: 104.95 MB used, 104.95 MB peak
-[2018.10.22-22.46.38:118][  0]LogMemory: Process Virtual Memory: 95.04 MB used, 95.04 MB peak
-[2018.10.22-22.46.38:118][  0]LogMemory: Physical Memory: 12020.98 MB used,  20718.09 MB free, 32739.06 MB total
-[2018.10.22-22.46.38:118][  0]LogMemory: Virtual Memory: 4710.03 MB used,  20718.09 MB free, 134217728.00 MB total
-[2018.10.22-22.46.38:305][  0]LogInit: Using OS detected language (en-US).
-[2018.10.22-22.46.38:305][  0]LogInit: Using OS detected locale (en-US).
-[2018.10.22-22.46.38:306][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.10.22-22.46.38:799][  0]LogStreaming: Display: Took  0.494s to InitEngineTextLocalization.
-[2018.10.22-22.46.38:799][  0]LogInit: Setting process to per monitor DPI aware
-[2018.10.22-22.46.38:896][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.10.22-22.46.38:896][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.10.22-22.46.41:387][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.22-22.46.41:387][  0]LogD3D11RHI: D3D11 adapters:
-[2018.10.22-22.46.41:415][  0]LogD3D11RHI:    0. 'AMD FirePro D700 (FireGL V)' (Feature Level 11_0)
-[2018.10.22-22.46.41:415][  0]LogD3D11RHI:       6124/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2018.10.22-22.46.41:418][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.10.22-22.46.41:418][  0]LogD3D11RHI:       0/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.10.22-22.46.41:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.10.22-22.46.41:424][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.10.22-22.46.41:424][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
-[2018.10.22-22.46.41:424][  0]LogWindows: EnumDisplayDevices:
-[2018.10.22-22.46.41:425][  0]LogWindows:    0. 'AMD FirePro D700 (FireGL V)' (P:1 D:1)
-[2018.10.22-22.46.41:425][  0]LogWindows:    1. 'AMD FirePro D700 (FireGL V)' (P:0 D:1)
-[2018.10.22-22.46.41:425][  0]LogWindows:    2. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
-[2018.10.22-22.46.41:426][  0]LogWindows:    3. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
-[2018.10.22-22.46.41:426][  0]LogWindows:    4. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
-[2018.10.22-22.46.41:426][  0]LogWindows:    5. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
-[2018.10.22-22.46.41:427][  0]LogWindows: DebugString: FoundDriverCount:6 
-[2018.10.22-22.46.41:427][  0]LogD3D11RHI:     Adapter Name: AMD FirePro D700 (FireGL V)
-[2018.10.22-22.46.41:427][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.6 (internal:22.19.170.1536, unified:22.19.170.1536)
-[2018.10.22-22.46.41:427][  0]LogD3D11RHI:      Driver Date: 7-20-2017
-[2018.10.22-22.46.41:427][  0]LogRHI: Texture pool is 4287 MB (70% of 6124 MB)
-[2018.10.22-22.46.41:592][  0]LogD3D11RHI: Async texture creation enabled
-[2018.10.22-22.46.41:606][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2018.10.22-22.46.41:610][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Intermediate/Shaders/WorkingDirectory/23412/).
-[2018.10.22-22.46.41:610][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Graphic/AppData/Local/Temp/UnrealShaderWorkingDir/9976EDB14F7CFD7138D833AC39EBF997/'.
-[2018.10.22-22.46.42:250][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.10.22-22.46.42:277][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.10.22-22.46.42:307][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.10.22-22.46.42:337][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.10.22-22.46.42:373][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.10.22-22.46.42:401][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.10.22-22.46.42:431][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.10.22-22.46.42:462][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.10.22-22.46.42:485][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.10.22-22.46.42:621][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.10.22-22.46.42:729][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.22-22.46.42:729][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.10.22-22.46.42:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.22-22.46.42:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.10.22-22.46.42:801][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.10.22-22.46.42:828][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.10.22-22.46.42:855][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.10.22-22.46.42:890][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.10.22-22.46.42:913][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.10.22-22.46.42:913][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.10.22-22.46.43:204][  0]LogXGEController: Cleaning working directory: C:/Users/Graphic/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.10.22-22.46.43:204][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.10.22-22.46.43:204][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.10.22-22.46.43:204][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.10.22-22.46.45:323][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.10.22-22.46.45:427][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.10.22-22.46.45:440][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Graphic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.10.22-22.46.45:440][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.10.22-22.46.45:440][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.10.22-22.46.45:461][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.10.22-22.46.45:463][  0]LogSlate: Using FreeType 2.6.0
-[2018.10.22-22.46.45:479][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.10.22-22.46.45:749][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
-[2018.10.22-22.46.46:204][  0]LogInit: Selected Device Profile: [Windows]
-[2018.10.22-22.46.46:454][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.10.22-22.46.46:483][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.10.22-22.46.46:483][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.10.22-22.46.46:483][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.10.22-22.46.46:483][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.10.22-22.46.46:629][  0]LogNetVersion: NightWatch 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171399734)
-[2018.10.22-22.46.47:731][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.127421 seconds
-[2018.10.22-22.46.47:738][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.10.22-22.46.47:738][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.10.22-22.46.47:739][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.10.22-22.46.51:331][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.10.22-22.46.51:356][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.10.22-22.46.51:773][  0]SourceControl: Source control is disabled
-[2018.10.22-22.46.51:773][  0]SourceControl: Source control is disabled
-[2018.10.22-22.46.51:788][  0]SourceControl: Source control is disabled
-[2018.10.22-22.46.51:800][  0]SourceControl: Source control is disabled
-[2018.10.22-22.46.52:410][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.10.22-22.46.52:674][  0]LogOcInput: OculusInput pre-init called
-[2018.10.22-22.46.52:811][  0]LogEngine: Initializing Engine...
-[2018.10.22-22.46.52:812][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.10.22-22.46.52:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.22-22.46.52:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.22-22.46.52:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.22-22.46.52:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.22-22.46.53:076][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.10.22-22.46.53:105][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.10.22-22.46.53:178][  0]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.22-22.46.53:198][  0]LogInit: FAudioDevice initialized.
-[2018.10.22-22.46.53:199][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.10.22-22.46.53:255][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.10.22-22.46.53:267][  0]LogInit: Texture streaming: Enabled
-[2018.10.22-22.46.53:335][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.10.22-22.46.53:373][  0]LogInit: Transaction tracking system initialized
-[2018.10.22-22.46.53:459][  0]BlueprintLog: New page: Editor Load
-[2018.10.22-22.46.53:825][  0]LocalizationService: Localization service is disabled
-[2018.10.22-22.46.54:349][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.10.22-22.46.54:349][  0]LogCook: Display: Mobile HDR setting 1
-[2018.10.22-22.46.54:349][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.10.22-22.46.54:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Content/' took 0.02s
-[2018.10.22-22.46.54:863][  0]SourceControl: Source control is disabled
-[2018.10.22-22.46.54:863][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.46.54:864][  0]LightingResults: New page: Lighting Build
-[2018.10.22-22.46.54:866][  0]MapCheck: New page: Map Check
-[2018.10.22-22.46.54:866][  0]LightingResults: New page: Lighting Build
-[2018.10.22-22.46.55:812][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.10.22-22.46.55:865][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.46.55:909][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.46.55:989][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.957ms to complete.
-[2018.10.22-22.46.55:989][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.125
-[2018.10.22-22.46.56:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.46.56:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.46.56:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.46.56:181][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.46.56:205][  0]LogCollectionManager: Loaded 0 collections in 0.001493 seconds
-[2018.10.22-22.46.56:254][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/Collections/' took 0.01s
-[2018.10.22-22.46.56:254][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Content/Developers/Graphic/Collections/' took 0.01s
-[2018.10.22-22.46.56:254][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Content/Collections/' took 0.01s
-[2018.10.22-22.46.56:254][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.10.22-22.46.56:265][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2572 classes and 603 folders.
-[2018.10.22-22.46.56:272][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.22-22.46.56:630][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.22-22.46.56:650][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.10.22-22.46.56:719][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.10.22-22.46.56:719][  0]LogLoad: (Engine Initialization) Total time: 22.80 seconds
-[2018.10.22-22.46.56:719][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.10.22-22.46.56:752][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.10.22-22.46.56:758][  0]LogSlate: Took 0.004947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.10.22-22.46.56:764][  0]LogSlate: Took 0.003887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.10.22-22.46.56:775][  0]LogSlate: Took 0.004603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.10.22-22.46.56:939][  1]LogRenderer: Reallocating scene render targets to support 804x496 Format 10 NumSamples 1 (Frame:1).
-[2018.10.22-22.46.57:046][  1]LogAssetRegistry: Asset discovery search completed in 11.3200 seconds
-[2018.10.22-22.46.57:049][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.10.22-22.46.57:049][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2018.10.22-22.47.10:017][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.47.28:438][570]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:3438).
-[2018.10.22-22.48.22:237][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
-[2018.10.22-22.48.23:864][739]Cmd: DELETE
-[2018.10.22-22.48.23:864][739]Cmd: ACTOR DELETE
-[2018.10.22-22.48.23:882][739]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.48.23:946][739]LogEditorActor: Deleted 1 Actors (0.078 secs)
-[2018.10.22-22.48.25:052][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
-[2018.10.22-22.48.25:981][890]Cmd: DELETE
-[2018.10.22-22.48.25:981][890]Cmd: ACTOR DELETE
-[2018.10.22-22.48.25:984][890]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.48.26:020][890]LogEditorActor: Deleted 1 Actors (0.039 secs)
-[2018.10.22-22.48.26:663][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
-[2018.10.22-22.48.26:835][948]Cmd: DELETE
-[2018.10.22-22.48.26:835][948]Cmd: ACTOR DELETE
-[2018.10.22-22.48.26:840][948]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.48.26:876][948]LogEditorActor: Deleted 1 Actors (0.040 secs)
-[2018.10.22-22.48.27:618][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
-[2018.10.22-22.48.31:227][273]Cmd: TRANSACTION UNDO
-[2018.10.22-22.48.31:227][273]LogEditorTransaction: Undo Clicking on Actors
-[2018.10.22-22.48.31:255][273]LogSlate: Took 0.005354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.22-22.48.31:583][296]Cmd: TRANSACTION UNDO
-[2018.10.22-22.48.31:583][296]LogEditorTransaction: Undo Delete Actors
-[2018.10.22-22.48.31:871][307]Cmd: TRANSACTION UNDO
-[2018.10.22-22.48.31:871][307]LogEditorTransaction: Undo Clicking on Actors
-[2018.10.22-22.48.32:107][321]Cmd: TRANSACTION UNDO
-[2018.10.22-22.48.32:107][321]LogEditorTransaction: Undo Delete Actors
-[2018.10.22-22.48.32:358][332]Cmd: TRANSACTION UNDO
-[2018.10.22-22.48.32:358][332]LogEditorTransaction: Undo Clicking on Actors
-[2018.10.22-22.48.32:769][359]Cmd: TRANSACTION UNDO
-[2018.10.22-22.48.32:770][359]LogEditorTransaction: Undo Delete Actors
-[2018.10.22-22.48.33:203][381]Cmd: TRANSACTION UNDO
-[2018.10.22-22.48.33:203][381]LogEditorTransaction: Undo Clicking on Actors
-[2018.10.22-22.48.41:943][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.48.54:603][ 19]LogSlate: Window 'New Level' being destroyed
-[2018.10.22-22.48.54:612][ 19]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.48.54:641][ 19]LightingResults: New page: Lighting Build
-[2018.10.22-22.48.54:642][ 19]LoadErrors: New page: Loading map: Template_Default.umap
-[2018.10.22-22.48.54:644][ 19]MapCheck: New page: Map Check
-[2018.10.22-22.48.54:645][ 19]LightingResults: New page: Lighting Build
-[2018.10.22-22.48.54:708][ 19]LogAIModule: Creating AISystem for world Untitled_1
-[2018.10.22-22.48.54:719][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.48.54:766][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.48.54:850][ 19]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.933ms to complete.
-[2018.10.22-22.48.54:850][ 19]LogFileHelpers: Loading map 'Template_Default' took 0.240
-[2018.10.22-22.49.12:941][223]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.10.22-22.49.24:971][223]LogSlate: Window 'Save Level As' being destroyed
-[2018.10.22-22.49.25:165][223]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMapFF06EC6D44C233A2316CF1BDD57D6ECD.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
-[2018.10.22-22.49.25:236][223]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap_BuiltDataE80A12CA4517DE8841CC61B569D23EE3.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap_BuiltData.uasset'
-[2018.10.22-22.49.25:250][223]LogFileHelpers: Saving map 'WillsTestMap' took 0.269
-[2018.10.22-22.49.29:513][553]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.10.22-22.49.29:529][553]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
-[2018.10.22-22.49.29:566][553]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.49.29:567][553]LightingResults: New page: Lighting Build
-[2018.10.22-22.49.29:567][553]LoadErrors: New page: Loading map: TopDownExampleMap.umap
-[2018.10.22-22.49.29:568][553]MapCheck: New page: Map Check
-[2018.10.22-22.49.29:568][553]LightingResults: New page: Lighting Build
-[2018.10.22-22.49.29:620][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.49.29:702][553]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.49.29:785][553]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.569ms to complete.
-[2018.10.22-22.49.29:786][553]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.221
-[2018.10.22-22.49.53:244][235]Cmd: EDIT COPY
-[2018.10.22-22.49.55:277][365]LogAIModule: Creating AISystem for world WillsTestMap
-[2018.10.22-22.49.55:281][365]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
-[2018.10.22-22.49.55:319][365]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.49.55:320][365]LightingResults: New page: Lighting Build
-[2018.10.22-22.49.55:320][365]LoadErrors: New page: Loading map: WillsTestMap.umap
-[2018.10.22-22.49.55:323][365]MapCheck: New page: Map Check
-[2018.10.22-22.49.55:323][365]LightingResults: New page: Lighting Build
-[2018.10.22-22.49.55:363][365]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.49.55:444][365]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.49.55:528][365]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.201ms to complete.
-[2018.10.22-22.49.55:529][365]LogFileHelpers: Loading map 'WillsTestMap' took 0.212
-[2018.10.22-22.49.57:600][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.10.22-22.49.58:136][568]Cmd: EDIT PASTE
-[2018.10.22-22.50.04:397][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.50.05:471][ 64]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.10.22-22.50.05:489][ 64]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
-[2018.10.22-22.50.06:561][ 64]LogSlate: Window 'Save Content' being destroyed
-[2018.10.22-22.50.06:742][ 64]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap91F24808420712B90D0CD29C950091B7.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
-[2018.10.22-22.50.06:789][ 64]LogFileHelpers: Saving map 'WillsTestMap' took 0.217
-[2018.10.22-22.50.06:790][ 64]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.50.06:790][ 64]LightingResults: New page: Lighting Build
-[2018.10.22-22.50.06:791][ 64]LoadErrors: New page: Loading map: TopDownExampleMap.umap
-[2018.10.22-22.50.06:792][ 64]MapCheck: New page: Map Check
-[2018.10.22-22.50.06:792][ 64]LightingResults: New page: Lighting Build
-[2018.10.22-22.50.06:844][ 64]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.50.06:926][ 64]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.50.07:009][ 64]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.736ms to complete.
-[2018.10.22-22.50.07:014][ 64]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.224
-[2018.10.22-22.50.12:383][418]Cmd: EDIT COPY
-[2018.10.22-22.50.13:738][509]LogAIModule: Creating AISystem for world WillsTestMap
-[2018.10.22-22.50.13:742][509]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
-[2018.10.22-22.50.13:781][509]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.50.13:781][509]LightingResults: New page: Lighting Build
-[2018.10.22-22.50.13:782][509]LoadErrors: New page: Loading map: WillsTestMap.umap
-[2018.10.22-22.50.13:784][509]MapCheck: New page: Map Check
-[2018.10.22-22.50.13:784][509]LightingResults: New page: Lighting Build
-[2018.10.22-22.50.13:825][509]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.50.13:905][509]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.50.13:985][509]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.53ms to complete.
-[2018.10.22-22.50.13:986][509]LogFileHelpers: Loading map 'WillsTestMap' took 0.206
-[2018.10.22-22.50.16:100][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.10.22-22.50.17:292][748]Cmd: EDIT PASTE
-[2018.10.22-22.50.24:897][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
-[2018.10.22-22.50.25:919][350]Cmd: DELETE
-[2018.10.22-22.50.25:919][350]Cmd: ACTOR DELETE
-[2018.10.22-22.50.25:921][350]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.25:962][350]LogEditorActor: Deleted 1 Actors (0.043 secs)
-[2018.10.22-22.50.26:501][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
-[2018.10.22-22.50.26:612][394]Cmd: DELETE
-[2018.10.22-22.50.26:612][394]Cmd: ACTOR DELETE
-[2018.10.22-22.50.26:615][394]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.26:653][394]LogEditorActor: Deleted 1 Actors (0.041 secs)
-[2018.10.22-22.50.27:241][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
-[2018.10.22-22.50.27:814][478]Cmd: DELETE
-[2018.10.22-22.50.27:814][478]Cmd: ACTOR DELETE
-[2018.10.22-22.50.27:817][478]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.27:856][478]LogEditorActor: Deleted 1 Actors (0.041 secs)
-[2018.10.22-22.50.28:275][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
-[2018.10.22-22.50.28:487][522]Cmd: DELETE
-[2018.10.22-22.50.28:487][522]Cmd: ACTOR DELETE
-[2018.10.22-22.50.28:490][522]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.28:528][522]LogEditorActor: Deleted 1 Actors (0.040 secs)
-[2018.10.22-22.50.29:242][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
-[2018.10.22-22.50.29:352][580]Cmd: DELETE
-[2018.10.22-22.50.29:352][580]Cmd: ACTOR DELETE
-[2018.10.22-22.50.29:354][580]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.29:391][580]LogEditorActor: Deleted 1 Actors (0.039 secs)
-[2018.10.22-22.50.29:904][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
-[2018.10.22-22.50.30:041][625]Cmd: DELETE
-[2018.10.22-22.50.30:041][625]Cmd: ACTOR DELETE
-[2018.10.22-22.50.30:043][625]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.30:081][625]LogEditorActor: Deleted 1 Actors (0.041 secs)
-[2018.10.22-22.50.30:487][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2018.10.22-22.50.31:352][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
-[2018.10.22-22.50.31:615][733]Cmd: DELETE
-[2018.10.22-22.50.31:615][733]Cmd: ACTOR DELETE
-[2018.10.22-22.50.31:618][733]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.31:654][733]LogEditorActor: Deleted 1 Actors (0.039 secs)
-[2018.10.22-22.50.35:146][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
-[2018.10.22-22.50.35:539][ 17]Cmd: DELETE
-[2018.10.22-22.50.35:539][ 17]Cmd: ACTOR DELETE
-[2018.10.22-22.50.35:542][ 17]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.35:579][ 17]LogEditorActor: Deleted 1 Actors (0.040 secs)
-[2018.10.22-22.50.35:995][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
-[2018.10.22-22.50.36:217][ 62]Cmd: DELETE
-[2018.10.22-22.50.36:217][ 62]Cmd: ACTOR DELETE
-[2018.10.22-22.50.36:220][ 62]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.36:257][ 62]LogEditorActor: Deleted 1 Actors (0.039 secs)
-[2018.10.22-22.50.36:831][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
-[2018.10.22-22.50.36:976][114]Cmd: DELETE
-[2018.10.22-22.50.36:976][114]Cmd: ACTOR DELETE
-[2018.10.22-22.50.36:979][114]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.37:016][114]LogEditorActor: Deleted 1 Actors (0.040 secs)
-[2018.10.22-22.50.37:767][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
-[2018.10.22-22.50.37:950][183]Cmd: DELETE
-[2018.10.22-22.50.37:950][183]Cmd: ACTOR DELETE
-[2018.10.22-22.50.37:952][183]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.37:991][183]LogEditorActor: Deleted 1 Actors (0.040 secs)
-[2018.10.22-22.50.38:595][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
-[2018.10.22-22.50.38:752][238]Cmd: DELETE
-[2018.10.22-22.50.38:752][238]Cmd: ACTOR DELETE
-[2018.10.22-22.50.38:754][238]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.50.38:794][238]LogEditorActor: Deleted 1 Actors (0.042 secs)
-[2018.10.22-22.50.43:807][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
-[2018.10.22-22.50.54:041][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
-[2018.10.22-22.50.56:417][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
-[2018.10.22-22.51.10:052][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
-[2018.10.22-22.51.11:039][596]Cmd: EDIT COPY
-[2018.10.22-22.51.11:403][624]Cmd: EDIT PASTE
-[2018.10.22-22.51.18:692][165]Cmd: DELETE
-[2018.10.22-22.51.18:692][165]Cmd: ACTOR DELETE
-[2018.10.22-22.51.18:694][165]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.51.18:731][165]LogEditorActor: Deleted 1 Actors (0.040 secs)
-[2018.10.22-22.51.19:722][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
-[2018.10.22-22.51.20:604][305]Cmd: EDIT COPY
-[2018.10.22-22.51.20:827][322]Cmd: EDIT PASTE
-[2018.10.22-22.51.35:486][409]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.10.22-22.51.53:228][681]Cmd: EDIT COPY
-[2018.10.22-22.51.53:421][696]Cmd: EDIT PASTE
-[2018.10.22-22.52.12:464][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
-[2018.10.22-22.52.23:105][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
-[2018.10.22-22.52.32:374][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.10.22-22.52.37:322][897]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.10.22-22.52.40:529][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.52.44:004][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.10.22-22.52.46:216][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.53.03:408][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
-[2018.10.22-22.53.42:380][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.10.22-22.53.46:072][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
-[2018.10.22-22.53.49:640][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
-[2018.10.22-22.54.18:464][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
-[2018.10.22-22.54.20:064][492]Cmd: EDIT COPY
-[2018.10.22-22.54.20:311][511]Cmd: EDIT PASTE
-[2018.10.22-22.54.24:948][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.10.22-22.54.37:519][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
-[2018.10.22-22.54.45:877][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
-[2018.10.22-22.54.58:838][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
-[2018.10.22-22.54.59:765][399]Cmd: EDIT COPY
-[2018.10.22-22.54.59:966][414]Cmd: EDIT PASTE
-[2018.10.22-22.55.22:904][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
-[2018.10.22-22.55.23:932][202]Cmd: EDIT COPY
-[2018.10.22-22.55.24:141][217]Cmd: EDIT PASTE
-[2018.10.22-22.55.32:585][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
-[2018.10.22-22.55.33:507][908]Cmd: EDIT COPY
-[2018.10.22-22.55.33:724][922]Cmd: EDIT PASTE
-[2018.10.22-22.55.43:894][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
-[2018.10.22-22.55.48:688][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
-[2018.10.22-22.55.50:832][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
-[2018.10.22-22.55.55:179][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2018.10.22-22.55.58:985][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
-[2018.10.22-22.56.08:768][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.56.08:965][489]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMapA311ACB048A31CC9E83296B56CB52711.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
-[2018.10.22-22.56.09:048][489]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap_BuiltData8F2181464DD42D59D52BC6AD8FD67756.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap_BuiltData.uasset'
-[2018.10.22-22.56.10:247][568]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.10.22-22.56.10:265][568]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
-[2018.10.22-22.56.10:304][568]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.56.10:304][568]LightingResults: New page: Lighting Build
-[2018.10.22-22.56.10:305][568]LoadErrors: New page: Loading map: TopDownExampleMap.umap
-[2018.10.22-22.56.10:306][568]MapCheck: New page: Map Check
-[2018.10.22-22.56.10:306][568]LightingResults: New page: Lighting Build
-[2018.10.22-22.56.10:360][568]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.56.10:443][568]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.56.10:526][568]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.013ms to complete.
-[2018.10.22-22.56.10:527][568]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.225
-[2018.10.22-22.56.39:799][349]Cmd: EDIT COPY
-[2018.10.22-22.56.45:393][621]Cmd: EDIT COPY
-[2018.10.22-22.56.50:415][876]Cmd: EDIT COPY
-[2018.10.22-22.56.54:887][111]LogAIModule: Creating AISystem for world WillsTestMap
-[2018.10.22-22.56.54:892][111]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
-[2018.10.22-22.56.54:931][111]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.56.54:931][111]LightingResults: New page: Lighting Build
-[2018.10.22-22.56.54:932][111]LoadErrors: New page: Loading map: WillsTestMap.umap
-[2018.10.22-22.56.54:964][111]MapCheck: New page: Map Check
-[2018.10.22-22.56.54:964][111]LightingResults: New page: Lighting Build
-[2018.10.22-22.56.55:006][111]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.56.55:086][111]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.56.55:170][111]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.034ms to complete.
-[2018.10.22-22.56.55:171][111]LogFileHelpers: Loading map 'WillsTestMap' took 0.242
-[2018.10.22-22.56.56:566][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.10.22-22.56.57:686][292]Cmd: EDIT PASTE
-[2018.10.22-22.56.57:760][292]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2018.10.22-22.57.02:488][521]LogEditorViewport: Clicking on Actor (LMB): GodCam_C (GodCam)
-[2018.10.22-22.57.10:521][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.10.22-22.57.11:653][995]Cmd: DELETE
-[2018.10.22-22.57.11:653][995]Cmd: ACTOR DELETE
-[2018.10.22-22.57.11:658][995]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.10.22-22.57.11:696][995]LogEditorActor: Deleted 1 Actors (0.043 secs)
-[2018.10.22-22.57.17:299][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.57.17:349][400]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.22-22.57.17:377][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.22-22.57.17:391][400]PIE: New page: PIE session: WillsTestMap (Oct 22, 2018, 2:57:17 PM)
-[2018.10.22-22.57.17:391][400]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap
-[2018.10.22-22.57.17:402][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010954s)
-[2018.10.22-22.57.17:403][400]LogAIModule: Creating AISystem for world WillsTestMap
-[2018.10.22-22.57.17:404][400]LogPlayLevel: PIE: World Init took: (0.001204s)
-[2018.10.22-22.57.17:404][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap to /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap (0.012362s)
-[2018.10.22-22.57.17:508][400]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.22-22.57.17:521][400]LogInit: FAudioDevice initialized.
-[2018.10.22-22.57.17:564][400]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.10.22-22.57.17:577][400]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap up for play (max tick rate 0) at 2018.10.22-18.57.17
-[2018.10.22-22.57.17:586][400]LogWorld: Bringing up level for play took: 0.017012
-[2018.10.22-22.57.17:609][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
-[2018.10.22-22.57.17:613][400]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap 0.568
-[2018.10.22-22.57.24:435][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.57.24:493][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.57.24:525][946]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.22-22.57.24:565][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.57.24:590][947]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2018.10.22-22.57.27:255][122]LogAIModule: Creating AISystem for world TopDownExampleMap
-[2018.10.22-22.57.27:272][122]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
-[2018.10.22-22.57.28:198][122]LogSlate: Window 'Save Content' being destroyed
-[2018.10.22-22.57.28:411][122]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMapDAA7D5684A7173E01D846B928DBF17ED.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
-[2018.10.22-22.57.28:461][122]LogFileHelpers: Saving map 'WillsTestMap' took 0.252
-[2018.10.22-22.57.28:461][122]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.57.28:461][122]LightingResults: New page: Lighting Build
-[2018.10.22-22.57.28:462][122]LoadErrors: New page: Loading map: TopDownExampleMap.umap
-[2018.10.22-22.57.28:463][122]MapCheck: New page: Map Check
-[2018.10.22-22.57.28:463][122]LightingResults: New page: Lighting Build
-[2018.10.22-22.57.28:516][122]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.57.28:601][122]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.57.28:682][122]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.477ms to complete.
-[2018.10.22-22.57.28:687][122]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.227
-[2018.10.22-22.57.36:769][798]Cmd: EDIT COPY
-[2018.10.22-22.57.39:746][  9]LogAIModule: Creating AISystem for world WillsTestMap
-[2018.10.22-22.57.39:759][  9]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
-[2018.10.22-22.57.39:800][  9]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.10.22-22.57.39:800][  9]LightingResults: New page: Lighting Build
-[2018.10.22-22.57.39:801][  9]LoadErrors: New page: Loading map: WillsTestMap.umap
-[2018.10.22-22.57.39:803][  9]MapCheck: New page: Map Check
-[2018.10.22-22.57.39:803][  9]LightingResults: New page: Lighting Build
-[2018.10.22-22.57.39:854][  9]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.10.22-22.57.39:936][  9]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.10.22-22.57.40:015][  9]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.563ms to complete.
-[2018.10.22-22.57.40:017][  9]LogFileHelpers: Loading map 'WillsTestMap' took 0.218
-[2018.10.22-22.57.41:808][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.10.22-22.57.42:625][173]Cmd: EDIT PASTE
-[2018.10.22-22.57.45:113][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.57.45:189][343]LogTemp: Repeating last play command: Selected Viewport
-[2018.10.22-22.57.45:215][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.10.22-22.57.45:215][343]PIE: New page: PIE session: WillsTestMap (Oct 22, 2018, 2:57:45 PM)
-[2018.10.22-22.57.45:215][343]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap
-[2018.10.22-22.57.45:222][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006837s)
-[2018.10.22-22.57.45:223][343]LogAIModule: Creating AISystem for world WillsTestMap
-[2018.10.22-22.57.45:223][343]LogPlayLevel: PIE: World Init took: (0.000853s)
-[2018.10.22-22.57.45:223][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap to /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap (0.007865s)
-[2018.10.22-22.57.45:332][343]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.10.22-22.57.45:344][343]LogInit: FAudioDevice initialized.
-[2018.10.22-22.57.45:374][343]LogLoad: Game class is 'TopDownGameMode_C'
-[2018.10.22-22.57.45:381][343]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap up for play (max tick rate 0) at 2018.10.22-18.57.45
-[2018.10.22-22.57.45:383][343]LogWorld: Bringing up level for play took: 0.007912
-[2018.10.22-22.57.45:397][343]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap 0.352
-[2018.10.22-22.57.50:588][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.10.22-22.57.50:629][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.57.50:666][754]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2018.10.22-22.57.50:706][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.10.22-22.57.50:728][755]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2018.10.22-22.57.52:253][852]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap5CC6F28347693A11C9BF0F98B251B595.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
-[2018.10.22-22.57.52:332][852]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap_BuiltDataA20AC1434CB32457A5AC83AFE52882FA.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap_BuiltData.uasset'
+[2018.10.22-23.15.05:845][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-23.15.05:845][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.22-23.15.05:863][  0]LogHAL: Display: Platform has ~ 32 GB [34329395200 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.22-23.15.05:863][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.22-23.15.05:863][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.22-23.15.05:863][  0]LogInit: Computer: SJH607-08W
+[2018.10.22-23.15.05:863][  0]LogInit: User: Graphic
+[2018.10.22-23.15.05:863][  0]LogInit: CPU Page size=4096, Cores=12
+[2018.10.22-23.15.05:863][  0]LogInit: High frequency timer resolution =2.636725 MHz
+[2018.10.22-23.15.05:864][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.10.22-23.15.05:864][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.22-23.15.05:864][  0]LogMemory: Process Physical Memory: 104.28 MB used, 104.28 MB peak
+[2018.10.22-23.15.05:864][  0]LogMemory: Process Virtual Memory: 92.90 MB used, 92.90 MB peak
+[2018.10.22-23.15.05:864][  0]LogMemory: Physical Memory: 9998.18 MB used,  22740.89 MB free, 32739.06 MB total
+[2018.10.22-23.15.05:864][  0]LogMemory: Virtual Memory: 4707.96 MB used,  22740.89 MB free, 134217728.00 MB total
+[2018.10.22-23.15.05:882][  0]LogInit: Using OS detected language (en-US).
+[2018.10.22-23.15.05:882][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.22-23.15.05:883][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.22-23.15.06:325][  0]LogStreaming: Display: Took  0.443s to InitEngineTextLocalization.
+[2018.10.22-23.15.06:325][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.22-23.15.06:351][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.22-23.15.06:351][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.22-23.15.06:614][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-23.15.06:614][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.22-23.15.06:637][  0]LogD3D11RHI:    0. 'AMD FirePro D700 (FireGL V)' (Feature Level 11_0)
+[2018.10.22-23.15.06:637][  0]LogD3D11RHI:       6124/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.10.22-23.15.06:640][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.22-23.15.06:640][  0]LogD3D11RHI:       0/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.22-23.15.06:640][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.22-23.15.06:645][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.22-23.15.06:645][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.22-23.15.06:645][  0]LogWindows: EnumDisplayDevices:
+[2018.10.22-23.15.06:646][  0]LogWindows:    0. 'AMD FirePro D700 (FireGL V)' (P:0 D:1)
+[2018.10.22-23.15.06:646][  0]LogWindows:    1. 'AMD FirePro D700 (FireGL V)' (P:1 D:1)
+[2018.10.22-23.15.06:646][  0]LogWindows:    2. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-23.15.06:647][  0]LogWindows:    3. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-23.15.06:647][  0]LogWindows:    4. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-23.15.06:647][  0]LogWindows:    5. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-23.15.06:648][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2018.10.22-23.15.06:648][  0]LogD3D11RHI:     Adapter Name: AMD FirePro D700 (FireGL V)
+[2018.10.22-23.15.06:648][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.6 (internal:22.19.170.1536, unified:22.19.170.1536)
+[2018.10.22-23.15.06:648][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2018.10.22-23.15.06:648][  0]LogRHI: Texture pool is 4287 MB (70% of 6124 MB)
+[2018.10.22-23.15.06:800][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.22-23.15.06:814][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.10.22-23.15.06:817][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Intermediate/Shaders/WorkingDirectory/5904/).
+[2018.10.22-23.15.06:817][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Graphic/AppData/Local/Temp/UnrealShaderWorkingDir/E65E28824F5439440DF9C6B4CC753094/'.
+[2018.10.22-23.15.07:119][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.22-23.15.07:134][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.22-23.15.07:149][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.22-23.15.07:164][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.22-23.15.07:180][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.22-23.15.07:196][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.22-23.15.07:213][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.22-23.15.07:231][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.22-23.15.07:239][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:336][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-23.15.07:337][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.22-23.15.07:402][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-23.15.07:402][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-23.15.07:431][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-23.15.07:431][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-23.15.07:448][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.22-23.15.07:465][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.22-23.15.07:481][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.22-23.15.07:504][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.22-23.15.07:516][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.22-23.15.07:516][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.22-23.15.07:577][  0]LogXGEController: Cleaning working directory: C:/Users/Graphic/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.22-23.15.07:577][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.22-23.15.07:577][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.22-23.15.07:577][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.22-23.15.08:548][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.22-23.15.08:620][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-23.15.08:620][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.22-23.15.08:620][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.22-23.15.08:620][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.22-23.15.08:620][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.22-23.15.08:620][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.22-23.15.08:635][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.22-23.15.08:648][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Graphic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.22-23.15.08:648][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.22-23.15.08:648][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.22-23.15.08:671][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.22-23.15.08:673][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.22-23.15.08:674][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.22-23.15.08:759][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.10.22-23.15.09:219][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-23.15.09:283][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.22-23.15.09:286][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.22-23.15.09:286][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.22-23.15.09:286][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.22-23.15.09:286][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.22-23.15.09:421][  0]LogNetVersion: NightWatch 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171399734)
+[2018.10.22-23.15.10:075][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.096331 seconds
+[2018.10.22-23.15.10:080][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.22-23.15.10:080][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.22-23.15.10:080][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.22-23.15.11:109][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.22-23.15.11:122][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.22-23.15.11:272][  0]SourceControl: Source control is disabled
+[2018.10.22-23.15.11:272][  0]SourceControl: Source control is disabled
+[2018.10.22-23.15.11:274][  0]SourceControl: Source control is disabled
+[2018.10.22-23.15.11:275][  0]SourceControl: Source control is disabled
+[2018.10.22-23.15.11:433][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.22-23.15.11:576][  0]LogOcInput: OculusInput pre-init called
+[2018.10.22-23.15.11:645][  0]LogEngine: Initializing Engine...
+[2018.10.22-23.15.11:646][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-23.15.11:647][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-23.15.11:647][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-23.15.11:647][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-23.15.11:647][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-23.15.11:900][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.22-23.15.11:912][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.22-23.15.11:976][  0]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.15.11:995][  0]LogInit: FAudioDevice initialized.
+[2018.10.22-23.15.11:996][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.22-23.15.12:051][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-23.15.12:061][  0]LogInit: Texture streaming: Enabled
+[2018.10.22-23.15.12:077][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.22-23.15.12:091][  0]LogInit: Transaction tracking system initialized
+[2018.10.22-23.15.12:111][  0]BlueprintLog: New page: Editor Load
+[2018.10.22-23.15.12:181][  0]LocalizationService: Localization service is disabled
+[2018.10.22-23.15.12:476][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.22-23.15.12:476][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.22-23.15.12:476][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.22-23.15.12:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-23.15.12:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-23.15.12:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-23.15.12:476][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-23.15.12:599][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/NightWatch/NightWatch/Content/' took 0.01s
+[2018.10.22-23.15.12:599][  0]SourceControl: Source control is disabled
+[2018.10.22-23.15.12:599][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-23.15.12:600][  0]LightingResults: New page: Lighting Build
+[2018.10.22-23.15.12:602][  0]MapCheck: New page: Map Check
+[2018.10.22-23.15.12:602][  0]LightingResults: New page: Lighting Build
+[2018.10.22-23.15.13:540][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.22-23.15.13:589][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-23.15.13:634][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-23.15.13:716][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.874ms to complete.
+[2018.10.22-23.15.13:716][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.116
+[2018.10.22-23.15.13:846][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.15.13:855][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.15.13:864][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.15.13:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.15.13:880][  0]LogCollectionManager: Loaded 0 collections in 0.001676 seconds
+[2018.10.22-23.15.13:924][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Collections/' took 0.01s
+[2018.10.22-23.15.13:924][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/NightWatch/NightWatch/Content/Developers/Graphic/Collections/' took 0.01s
+[2018.10.22-23.15.13:924][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/NightWatch/NightWatch/Content/Collections/' took 0.01s
+[2018.10.22-23.15.13:924][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.22-23.15.13:935][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2572 classes and 603 folders.
+[2018.10.22-23.15.13:941][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.22-23.15.13:992][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.22-23.15.13:997][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.10.22-23.15.14:043][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.22-23.15.14:043][  0]LogLoad: (Engine Initialization) Total time: 10.99 seconds
+[2018.10.22-23.15.14:043][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.22-23.15.14:082][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.22-23.15.14:083][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.22-23.15.14:086][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.22-23.15.14:092][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.22-23.15.14:226][  1]LogRenderer: Reallocating scene render targets to support 888x556 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-23.15.14:343][  1]LogAssetRegistry: Asset discovery search completed in 5.6075 seconds
+[2018.10.22-23.15.14:345][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.22-23.15.14:345][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.10.22-23.17.24:446][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.17.24:604][554]LogRenderer: Reallocating scene render targets to support 1784x900 Format 10 NumSamples 1 (Frame:158).
+[2018.10.22-23.17.27:498][718]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-23.17.27:506][718]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.10.22-23.17.28:170][718]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.10.22-23.17.29:393][718]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.22-23.17.29:543][719]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.22-23.17.32:065][883]LogSlate: Window 'TopDownCharacter' being destroyed
+[2018.10.22-23.17.36:619][ 77]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownExampleMap01E78CBA4D61D1037E06829583A97D06.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.10.22-23.17.36:780][ 77]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownExampleMap_BuiltData670AE33642A1FA9C83AE918FD352B28C.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap_BuiltData.uasset'
+[2018.10.22-23.17.52:341][975]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.17.53:972][ 44]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap799541934667897C9449EB81FBA5B09D.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.17.53:988][ 44]LogFileHelpers: Saving map 'JuliansTestMap' took 0.388
+[2018.10.22-23.17.54:574][ 78]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap
+[2018.10.22-23.17.55:929][ 78]LogSlate: Window 'Save Content' being destroyed
+[2018.10.22-23.17.56:002][ 78]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltData76B1A89A4497F4842E21739218122FA6.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.17.56:008][ 78]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-23.17.56:008][ 78]LightingResults: New page: Lighting Build
+[2018.10.22-23.17.56:009][ 78]LoadErrors: New page: Loading map: JuliansTestMap.umap
+[2018.10.22-23.17.56:011][ 78]MapCheck: New page: Map Check
+[2018.10.22-23.17.56:011][ 78]LightingResults: New page: Lighting Build
+[2018.10.22-23.17.56:076][ 78]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-23.17.56:177][ 78]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-23.17.56:277][ 78]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 100.654ms to complete.
+[2018.10.22-23.17.56:279][ 78]LogFileHelpers: Loading map 'JuliansTestMap' took 0.273
+[2018.10.22-23.18.21:927][599]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.18.22:562][625]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter999D437A409C809AB2DDC9A283AC1B7E.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.19.26:889][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.19.26:898][321]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBTCA38291C4EA3599DAF85A19CA95BD713.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.19.27:944][357]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/TopDownBP/Blueprints/CharacterBT.CharacterBT
+[2018.10.22-23.20.09:933][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBB" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset" SILENT=true
+[2018.10.22-23.20.09:941][321]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBBD2F5E8BD42470E6A92718CAD7DE838A0.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset'
+[2018.10.22-23.20.10:683][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBB" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset" SILENT=true
+[2018.10.22-23.20.10:704][332]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBB045B16724594C07068D7D6BE645FC921.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset'
+[2018.10.22-23.20.19:249][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.20.19:266][644]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT43EA793841C61359447F788B9CA0F9E8.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.20.50:712][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.20.50:729][672]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBTFA96937242887CC117A4508CB9771287.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.21.00:065][706]LogBehaviorTree: Warning: > Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.00:065][706]LogBehaviorTree: Warning: Move To[1]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.07:482][390]LogBehaviorTree: Warning: > Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.07:482][390]LogBehaviorTree: Warning: Move To[1]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.07:482][390]LogBehaviorTree: Warning: Move To[2]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.12:306][863]LogBehaviorTree: Warning: > Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.12:306][863]LogBehaviorTree: Warning: Move To[1]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.12:306][863]LogBehaviorTree: Warning: Move To[2]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.12:306][863]LogBehaviorTree: Warning: Move To[3]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.19:115][476]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.19:115][476]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.19:115][476]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.24:334][957]LogBehaviorTree: Warning: Move To[1]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.24:334][957]LogBehaviorTree: Warning: Move To[2]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.24:334][957]LogBehaviorTree: Warning: Move To[3]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.24:335][957]LogBehaviorTree: Warning: Move To[1]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.24:335][957]LogBehaviorTree: Warning: Move To[2]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.24:335][957]LogBehaviorTree: Warning: Move To[3]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.34:034][771]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.34:034][771]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.34:034][771]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.34:034][771]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.34:035][771]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.21.34:035][771]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.22.51:164][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.22.51:182][184]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBTB139B4AB4108EBB9EAF68FBB2C93F080.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.23.02:719][343]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.23.02:719][343]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.23.02:720][343]LogBehaviorTree: Warning: Move To[65535]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.23.10:529][127]LogBehaviorTree: Warning: > Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.23.10:529][127]LogBehaviorTree: Warning: Move To[1]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.23.18:079][829]LogBehaviorTree: Warning: Move To[1]> Failed to find key 'None' in BB asset BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB. BB Key Selector will be set to 'Invalid'
+[2018.10.22-23.23.18:101][829]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.23.18:118][829]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBTA865A6D143FDCE8E78E0A69E0DE24C76.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.23.19:743][920]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/TopDownBP/Blueprints/CharacterBB.CharacterBB
+[2018.10.22-23.23.36:887][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBB" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset" SILENT=true
+[2018.10.22-23.23.36:904][482]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBB4393581B4FF6BE72126B4EAEF53BBE8E.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset'
+[2018.10.22-23.23.44:597][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.23.44:618][938]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT868791EA4864EA5916554F9B7F857EDF.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.25.08:810][534]LogRenderer: Reallocating scene render targets to support 1784x1000 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-23.25.08:958][543]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.25.09:445][555]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter3C38147848C31E8171B992815D509190.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.25.17:447][963]LogEditorViewport: Clicking on Actor (LMB): Muscle_C (Muscle)
+[2018.10.22-23.25.18:402][  1]Cmd: DELETE
+[2018.10.22-23.25.18:402][  1]Cmd: ACTOR DELETE
+[2018.10.22-23.25.18:407][  1]LogEditorActor: Deleted Actor: Muscle_C
+[2018.10.22-23.25.18:452][  1]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2018.10.22-23.25.18:762][ 17]LogEditorViewport: Clicking on Actor (LMB): Detective_C (Detective)
+[2018.10.22-23.25.18:917][ 18]Cmd: DELETE
+[2018.10.22-23.25.18:917][ 18]Cmd: ACTOR DELETE
+[2018.10.22-23.25.18:921][ 18]LogEditorActor: Deleted Actor: Detective_C
+[2018.10.22-23.25.18:967][ 18]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2018.10.22-23.25.19:399][ 40]LogEditorViewport: Clicking on Actor (LMB): Coroner_C (Coroner)
+[2018.10.22-23.25.19:546][ 41]Cmd: DELETE
+[2018.10.22-23.25.19:546][ 41]Cmd: ACTOR DELETE
+[2018.10.22-23.25.19:550][ 41]LogEditorActor: Deleted Actor: Coroner_C
+[2018.10.22-23.25.19:610][ 41]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2018.10.22-23.25.20:060][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.22-23.25.20:266][ 69]Cmd: DELETE
+[2018.10.22-23.25.20:266][ 69]Cmd: ACTOR DELETE
+[2018.10.22-23.25.20:269][ 69]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-23.25.20:310][ 69]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2018.10.22-23.25.21:487][132]Cmd: TRANSACTION UNDO
+[2018.10.22-23.25.21:487][132]LogEditorTransaction: Undo Delete Actors
+[2018.10.22-23.25.22:222][156]LogEditorViewport: Clicking on Actor (LMB): Toxicologist_C (Toxicologist)
+[2018.10.22-23.25.22:968][184]Cmd: DELETE
+[2018.10.22-23.25.22:968][184]Cmd: ACTOR DELETE
+[2018.10.22-23.25.22:971][184]LogEditorActor: Deleted Actor: Toxicologist_C
+[2018.10.22-23.25.23:014][184]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2018.10.22-23.25.27:345][406]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.25.38:996][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.25.39:090][294]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.25.39:121][294]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.39:128][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.25.39:141][294]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:25:39 PM)
+[2018.10.22-23.25.39:141][294]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.25.39:156][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014611s)
+[2018.10.22-23.25.39:157][294]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.25.39:157][294]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2018.10.22-23.25.39:157][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.015865s)
+[2018.10.22-23.25.39:256][294]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.25.39:269][294]LogInit: FAudioDevice initialized.
+[2018.10.22-23.25.39:315][294]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.25.39:320][294]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.25.39
+[2018.10.22-23.25.39:321][294]LogWorld: Bringing up level for play took: 0.004654
+[2018.10.22-23.25.39:349][294]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.22-23.25.39:351][294]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap 0.335
+[2018.10.22-23.25.39:351][294]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.43:466][688]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.43:472][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.25.43:512][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.25.43:513][688]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.43:555][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.25.43:584][689]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2018.10.22-23.25.45:128][812]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.25.45:154][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.45:162][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.25.45:162][812]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:25:45 PM)
+[2018.10.22-23.25.45:162][812]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.25.45:176][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013745s)
+[2018.10.22-23.25.45:177][812]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.25.45:177][812]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2018.10.22-23.25.45:177][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.015075s)
+[2018.10.22-23.25.45:277][812]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.25.45:288][812]LogInit: FAudioDevice initialized.
+[2018.10.22-23.25.45:320][812]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.25.45:324][812]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.25.45
+[2018.10.22-23.25.45:325][812]LogWorld: Bringing up level for play took: 0.004293
+[2018.10.22-23.25.45:339][812]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap 0.324
+[2018.10.22-23.25.45:339][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.46:996][960]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.47:003][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.25.47:045][960]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.25.47:046][960]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.25.47:092][960]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.25.47:121][961]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.22-23.25.59:463][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.25.59:493][ 18]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBTAF68DC174A4C73E56736E7A3D2B4FC7F.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.26.02:732][269]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.26.02:758][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.26.02:766][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.26.02:767][269]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:26:02 PM)
+[2018.10.22-23.26.02:767][269]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.26.02:781][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014137s)
+[2018.10.22-23.26.02:782][269]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.26.02:782][269]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2018.10.22-23.26.02:782][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.015221s)
+[2018.10.22-23.26.02:879][269]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.26.02:891][269]LogInit: FAudioDevice initialized.
+[2018.10.22-23.26.02:925][269]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.26.02:929][269]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.26.02
+[2018.10.22-23.26.02:930][269]LogWorld: Bringing up level for play took: 0.004228
+[2018.10.22-23.26.02:945][269]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.07
+[2018.10.22-23.26.02:946][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.26.09:296][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.26.09:302][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.26.09:338][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.26.09:339][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.26.09:381][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.26.09:409][872]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.10.22-23.26.17:985][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.26.18:004][591]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT5D063F804AEBFD4D3750C78BD809BD74.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.27.26:894][530]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.27.26:902][530]LogBlueprint: Error: [Compiler TopDownCharacter] The current value (None) of the ' Key Name ' pin is invalid: 'Key Name' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2018.10.22-23.27.27:126][530]LogBlueprint: Warning: [Compiler TopDownCharacter] [0744.08] Compile of TopDownCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 232 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2018.10.22-23.27.27:589][559]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter9F544FBF4FEF18DE35165A8C41D5E3D1.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.27.48:595][300]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.27.49:276][329]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterA8B981FF4F2FB75D0ED6BE99AD7E1DC3.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.27.59:198][ 96]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterDF78156C404007C525F3ADA5C8EE6AF5.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.28.03:884][343]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.28.03:916][343]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.03:924][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.28.03:924][343]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:28:03 PM)
+[2018.10.22-23.28.03:924][343]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.28.03:941][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016817s)
+[2018.10.22-23.28.03:942][343]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.28.03:942][343]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2018.10.22-23.28.03:942][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.017925s)
+[2018.10.22-23.28.04:037][343]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.28.04:050][343]LogInit: FAudioDevice initialized.
+[2018.10.22-23.28.04:081][343]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.28.04:085][343]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.28.04
+[2018.10.22-23.28.04:086][343]LogWorld: Bringing up level for play took: 0.004131
+[2018.10.22-23.28.04:099][343]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap 1.084
+[2018.10.22-23.28.04:099][343]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.06:842][597]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.06:849][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.06:886][597]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.28.06:887][597]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.06:930][597]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.06:962][598]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.10.22-23.28.07:570][646]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2018.10.22-23.28.12:883][  1]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-23.28.13:167][  1]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap91C25E304CDB776B04B7D3A83283B853.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.28.13:287][  1]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltData692081EA428B11809CF3EEB403190596.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.28.13:591][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.28.13:995][ 34]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMapD4D4F83645B0E475F9AB1AB1F3FEDBC7.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.28.14:120][ 34]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltDataBA79ABF24ADBDA50B19BE89CCC2F1AD5.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.28.15:285][109]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.28.15:311][109]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.15:319][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.28.15:319][109]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:28:15 PM)
+[2018.10.22-23.28.15:319][109]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.28.15:337][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017495s)
+[2018.10.22-23.28.15:338][109]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.28.15:339][109]LogPlayLevel: PIE: World Init took: (0.001447s)
+[2018.10.22-23.28.15:339][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.019226s)
+[2018.10.22-23.28.15:437][109]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.28.15:449][109]LogInit: FAudioDevice initialized.
+[2018.10.22-23.28.15:481][109]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.28.15:485][109]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.28.15
+[2018.10.22-23.28.15:486][109]LogWorld: Bringing up level for play took: 0.004236
+[2018.10.22-23.28.15:500][109]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap 0.485
+[2018.10.22-23.28.15:501][109]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.27:187][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.28.27:280][829]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.27:287][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.27:324][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.28.27:325][829]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.27:371][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.27:405][830]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.10.22-23.28.35:517][491]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.28.36:125][514]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterE45840AD47F1D11EA56584B5F3DCFD76.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.28.36:540][544]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.28.36:655][557]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.28.36:687][557]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.36:695][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.28.36:695][557]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:28:36 PM)
+[2018.10.22-23.28.36:695][557]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.28.36:711][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015358s)
+[2018.10.22-23.28.36:712][557]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.28.36:712][557]LogPlayLevel: PIE: World Init took: (0.001274s)
+[2018.10.22-23.28.36:712][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.016858s)
+[2018.10.22-23.28.36:809][557]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.28.36:820][557]LogInit: FAudioDevice initialized.
+[2018.10.22-23.28.36:852][557]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.28.36:856][557]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.28.36
+[2018.10.22-23.28.36:857][557]LogWorld: Bringing up level for play took: 0.004153
+[2018.10.22-23.28.36:870][557]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.145
+[2018.10.22-23.28.36:870][557]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.42:533][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.28.42:649][106]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.42:655][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.42:696][106]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.28.42:696][106]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.42:739][106]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.42:789][107]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.10.22-23.28.43:754][183]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2018.10.22-23.28.46:129][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.28.46:216][345]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.28.46:242][345]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.46:250][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.28.46:250][345]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:28:46 PM)
+[2018.10.22-23.28.46:250][345]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.28.46:263][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012842s)
+[2018.10.22-23.28.46:264][345]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.28.46:264][345]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.10.22-23.28.46:264][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.013942s)
+[2018.10.22-23.28.46:363][345]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.28.46:374][345]LogInit: FAudioDevice initialized.
+[2018.10.22-23.28.46:405][345]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.28.46:409][345]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.28.46
+[2018.10.22-23.28.46:410][345]LogWorld: Bringing up level for play took: 0.004136
+[2018.10.22-23.28.46:423][345]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.593
+[2018.10.22-23.28.46:423][345]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.50:191][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.28.50:298][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.50:305][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.50:343][712]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.28.50:343][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.28.50:385][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.28.50:450][713]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.10.22-23.31.58:543][821]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMapF6D21B72487731AC665753940A6CA070.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.31.58:660][821]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltData5CFA86FF43BF2B1E39FF988203A84C9D.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.31.59:283][841]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap8734B25B4ECA8B43350D63891946E496.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.31.59:409][841]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltDataFCB5B565454F54C7DA6567879C979DBE.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.32.09:763][439]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2018.10.22-23.32.11:266][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.32.20:179][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.32.24:927][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.32.36:895][672]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-23.32.37:169][672]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap0A08338B4E29E567B11839B7CAF4C542.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.32.37:279][672]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltData060B0A6E4AF173D95E12B2AF21A8FC37.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.32.38:063][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.32.38:457][723]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMapFA97847C454DAC33809E8F8D3503BFAE.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.32.38:568][723]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltDataC3D347B24FE2FA5DF76A6C898DC7327E.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.32.48:077][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.32.48:187][245]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.32.48:212][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.32.48:219][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.32.48:219][245]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:32:48 PM)
+[2018.10.22-23.32.48:219][245]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.32.48:232][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013158s)
+[2018.10.22-23.32.48:233][245]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.32.48:233][245]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2018.10.22-23.32.48:234][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.014330s)
+[2018.10.22-23.32.48:329][245]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.32.48:340][245]LogInit: FAudioDevice initialized.
+[2018.10.22-23.32.48:370][245]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.32.48:373][245]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.32.48
+[2018.10.22-23.32.48:374][245]LogWorld: Bringing up level for play took: 0.003829
+[2018.10.22-23.32.48:388][245]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.628
+[2018.10.22-23.32.48:388][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.32.51:385][478]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.32.51:391][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.32.51:431][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.32.51:431][478]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.32.51:475][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.32.51:541][479]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.10.22-23.32.54:076][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.32.54:152][633]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.32.54:181][633]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.32.54:190][633]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.32.54:190][633]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:32:54 PM)
+[2018.10.22-23.32.54:190][633]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.32.54:204][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013575s)
+[2018.10.22-23.32.54:204][633]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.32.54:205][633]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2018.10.22-23.32.54:205][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.014694s)
+[2018.10.22-23.32.54:318][633]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.32.54:330][633]LogInit: FAudioDevice initialized.
+[2018.10.22-23.32.54:360][633]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.32.54:364][633]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.32.54
+[2018.10.22-23.32.54:364][633]LogWorld: Bringing up level for play took: 0.003887
+[2018.10.22-23.32.54:377][633]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.639
+[2018.10.22-23.32.54:377][633]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.32.56:339][788]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.33.00:032][991]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.33.04:449][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.33.04:546][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.33.04:553][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.33.04:589][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.33.04:589][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.33.04:634][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.33.04:684][268]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2018.10.22-23.33.27:967][792]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2018.10.22-23.33.34:494][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.33.49:242][934]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.10.22-23.34.16:584][542]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterAA232F3940F19CA358F78C816229059A.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.34.17:490][592]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterE185F27D4D7BC5DD2F9AFE89242B63D2.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.34.23:632][981]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.34.24:179][983]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter19DA0057489E49CE32CF7492274DFC5C.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.34.24:815][ 21]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.34.24:845][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.34.24:852][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.34.24:853][ 21]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:34:24 PM)
+[2018.10.22-23.34.24:853][ 21]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.34.24:867][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013054s)
+[2018.10.22-23.34.24:867][ 21]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.34.24:867][ 21]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2018.10.22-23.34.24:867][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.014148s)
+[2018.10.22-23.34.24:964][ 21]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.34.24:975][ 21]LogInit: FAudioDevice initialized.
+[2018.10.22-23.34.25:009][ 21]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.34.25:013][ 21]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.34.25
+[2018.10.22-23.34.25:014][ 21]LogWorld: Bringing up level for play took: 0.004012
+[2018.10.22-23.34.25:028][ 21]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap 0.012
+[2018.10.22-23.34.25:028][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.34.30:421][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.34.30:529][435]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.34.30:536][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.34.30:575][435]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.34.30:576][435]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.34.30:618][435]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.34.30:690][436]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2018.10.22-23.34.48:527][629]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.22-23.34.58:136][302]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter50DED1D841E3FF77D9CEEBA4FEFE363B.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.35.05:849][797]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2018.10.22-23.35.09:631][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.35.24:835][905]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterE084DBF14849B18D2F123F800096145D.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.35.26:157][983]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-23.35.26:457][983]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMapFD776E6143C91700240605B21ABD6E46.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.35.26:585][983]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltDataCF75B0AA46DA25EB962E8881D3B4F269.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.35.26:925][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.35.27:011][  8]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.35.27:626][ 13]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterA55B33214F9D4C5C62BF31937C05F6A4.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.35.29:624][123]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.35.37:980][617]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter0F9E7885477B8A1FE3CFCFBCB400F358.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.35.39:348][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.35.39:478][708]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.35.41:137][773]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterCC7305BD41085719351CED9CC048B797.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.35.50:543][330]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-23.35.50:810][330]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMapAB711A0242902AD26F83CD9759084E92.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.35.50:926][330]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltDataCC1F730D4D756261378A5E930AC983E4.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.35.52:059][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.36.00:492][898]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter2CAB181B47840149C528A2A62DAD38C5.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.36.02:307][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.36.25:522][389]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterD91D209C4DEE6F33BFA0D39D3DD00F2A.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.36.26:633][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.36.26:716][461]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.36.28:011][506]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterEF61B2C2451C40788F7AF3B2E01FC600.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.36.28:436][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.36.28:529][538]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.36.28:561][538]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.36.28:568][538]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.36.28:568][538]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:36:28 PM)
+[2018.10.22-23.36.28:568][538]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.36.28:582][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013957s)
+[2018.10.22-23.36.28:583][538]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.36.28:583][538]LogPlayLevel: PIE: World Init took: (0.000887s)
+[2018.10.22-23.36.28:583][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.015044s)
+[2018.10.22-23.36.28:679][538]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.36.28:691][538]LogInit: FAudioDevice initialized.
+[2018.10.22-23.36.28:726][538]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.36.28:730][538]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.36.28
+[2018.10.22-23.36.28:731][538]LogWorld: Bringing up level for play took: 0.003940
+[2018.10.22-23.36.28:745][538]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.271
+[2018.10.22-23.36.28:745][538]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.36.36:896][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.36.37:008][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.36.37:016][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.36.37:058][163]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.36.37:058][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.36.37:100][163]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.36.37:164][164]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2018.10.22-23.37.21:840][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.37.21:861][205]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT8AE576B04CB9FF22B6C6FB9162DB621C.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.37.22:336][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.38.16:102][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.38.16:119][715]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT39CF44B346D7DE2A027ACC82542562E5.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.38.16:830][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.38.17:814][834]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter9A51BE124684973B3E02FFA92B80C135.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.38.18:786][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.40.05:625][580]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.22-23.40.05:650][580]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT73F9FEE54E998A2FFE67B58BA44B8AA7.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.22-23.40.06:797][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.42.41:957][208]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.42.41:972][208]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a BlackboardComponent, therefore ' Target ' must have a connection.
+[2018.10.22-23.42.41:973][208]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a BlackboardComponent, therefore ' Target ' must have a connection.
+[2018.10.22-23.42.41:973][208]LogBlueprint: Error: [Compiler TopDownCharacter] This blueprint (self) is not a BlackboardComponent, therefore ' Target ' must have a connection.
+[2018.10.22-23.42.42:189][208]LogBlueprint: Warning: [Compiler TopDownCharacter] [1659.14] Compile of TopDownCharacter failed. 3 Fatal Issue(s) 0 Warning(s) [in 232 ms] (/Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter)
+[2018.10.22-23.43.07:329][  4]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.43.07:825][ 14]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterEE39ECCD49831AEFF0ADF99699E49F69.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.43.08:328][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.43.08:393][ 50]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.43.08:428][ 50]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.43.08:436][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.43.08:436][ 50]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:43:08 PM)
+[2018.10.22-23.43.08:436][ 50]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.43.08:451][ 50]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014979s)
+[2018.10.22-23.43.08:452][ 50]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.43.08:452][ 50]LogPlayLevel: PIE: World Init took: (0.000975s)
+[2018.10.22-23.43.08:452][ 50]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.016134s)
+[2018.10.22-23.43.08:548][ 50]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.43.08:560][ 50]LogInit: FAudioDevice initialized.
+[2018.10.22-23.43.08:595][ 50]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.43.08:599][ 50]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.43.08
+[2018.10.22-23.43.08:600][ 50]LogWorld: Bringing up level for play took: 0.004031
+[2018.10.22-23.43.08:614][ 50]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.402
+[2018.10.22-23.43.08:614][ 50]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.43.19:040][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.43.24:851][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.43.24:858][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.43.24:901][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.43.24:902][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.43.24:947][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.43.24:975][224]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2018.10.22-23.46.14:916][191]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/Blueprints/AIController.
+[2018.10.22-23.46.15:445][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.46.15:505][205]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController0FC1E8F44D0BF47ADD6691B6142A4D6A.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.46.15:614][209]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AIController.
+[2018.10.22-23.46.38:335][843]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.22-23.46.49:142][959]LogSlate: Window 'Pick Parent Class' being destroyed
+[2018.10.22-23.46.53:606][135]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/Blueprints/AIController.
+[2018.10.22-23.46.54:207][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.46.54:222][151]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController8D5E76D84064572DD5298197934D61AC.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.46.54:243][152]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AIController.
+[2018.10.22-23.47.20:004][256]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_Auto141CC105940B84A1B85D2AF8161554CB6.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Maps/JuliansTestMap_Auto1.umap'
+[2018.10.22-23.47.20:008][256]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/JuliansTestMap' took 0.325
+[2018.10.22-23.47.20:008][256]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.325
+[2018.10.22-23.47.20:010][256]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.10.22-23.47.20:010][256]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.10.22-23.47.20:057][256]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter_Auto12C9DAF724D387EC348E508B6A11547AD.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto1.uasset'
+[2018.10.22-23.47.20:059][256]LogFileHelpers: Auto-saving content packages took 0.049
+[2018.10.22-23.47.38:765][881]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.22-23.48.08:009][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.48.08:033][ 38]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController58EB50244FAE56DAE182959EA9FD0029.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.48.09:642][142]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.48.10:373][160]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterDA437EEC446A04204E766F9E84EB4379.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.49.33:051][357]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.49.33:665][378]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterB19DA80E45E33C6939D5E58860983059.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.49.34:141][412]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-23.49.34:174][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.49.34:181][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-23.49.34:181][412]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 3:49:34 PM)
+[2018.10.22-23.49.34:182][412]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.22-23.49.34:196][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013995s)
+[2018.10.22-23.49.34:196][412]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.22-23.49.34:197][412]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2018.10.22-23.49.34:197][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.015114s)
+[2018.10.22-23.49.34:288][412]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-23.49.34:301][412]LogInit: FAudioDevice initialized.
+[2018.10.22-23.49.34:337][412]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-23.49.34:341][412]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-19.49.34
+[2018.10.22-23.49.34:341][412]LogWorld: Bringing up level for play took: 0.003874
+[2018.10.22-23.49.34:355][412]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap -0.66
+[2018.10.22-23.49.34:355][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.49.40:152][851]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.49.40:279][863]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.49.40:287][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.49.40:323][863]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-23.49.40:323][863]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.22-23.49.40:365][863]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-23.49.40:428][864]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2018.10.22-23.49.42:443][  4]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterF80E442D488302F9581C33A3875CF729.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.49.48:525][472]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter3A1EC0D74390E8702D860EA600A21ED7.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.50.30:789][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-23.50.31:064][591]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap6AA623D64CAFE2AD6CBA45B744700B16.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.50.31:191][591]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltDataFDF96CDC467698F84C9294A3BE4C3FEA.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.50.36:083][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.50.37:036][142]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.22-23.51.14:723][986]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBB" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset" SILENT=true
+[2018.10.22-23.51.14:742][986]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBB8B2AC00A47EDFE2050D0908EACCF6AA4.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset'
+[2018.10.22-23.51.15:573][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.51.17:617][258]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.10.22-23.51.17:896][258]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap6BCEA9AC4E99D0918F4D119A031BD463.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap.umap'
+[2018.10.22-23.51.18:012][258]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_BuiltData6B6857964B5D52A545A8D5AFFAB4DF25.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Maps/JuliansTestMap_BuiltData.uasset'
+[2018.10.22-23.51.19:538][394]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.51.19:667][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBB" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset" SILENT=true
+[2018.10.22-23.51.19:681][407]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBB7F7FCE164D7EB028E05DD98E9D0183B0.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBB.uasset'
+[2018.10.22-23.51.20:269][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-23.52.20:873][277]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/AIController.AIController
+[2018.10.22-23.53.51:931][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.53.51:960][ 19]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIControllerC246A4FD45D452C1F54BAE931420EBDD.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.54.10:557][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.54.10:581][783]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController87403056400AABBD7CB7D8977FA5B3B0.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.54.11:599][873]BlueprintLog: New page: Compile AIController
+[2018.10.22-23.54.12:243][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.54.12:268][909]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController6B0B35A44ACCFB69018AFDBDFBE3F8D3.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.55.27:281][592]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter989631104B8CA5BED14DF587E87AEC2F.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.22-23.55.28:102][670]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.22-23.55.41:967][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.55.41:991][821]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIControllerED7133D9462C6F9C07851F9BCD625605.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.55.43:021][915]BlueprintLog: New page: Compile AIController
+[2018.10.22-23.55.43:865][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.55.43:890][967]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIControllerE670D6D146017A6CB249358BE49AE8B1.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.55.59:358][799]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.55.59:383][799]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController19EDDF4D4B1E52D6EBB046B13CE9454D.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.55.59:927][850]BlueprintLog: New page: Compile AIController
+[2018.10.22-23.56.01:039][935]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.56.01:067][935]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController6345429E4687F8EDE7DB338562D44E06.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.56.17:755][771]BlueprintLog: New page: Compile AIController
+[2018.10.22-23.56.18:277][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AIController" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset" SILENT=true
+[2018.10.22-23.56.18:305][798]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AIController5B146E38497C033C775CCC9030E00EE4.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AIController.uasset'
+[2018.10.22-23.59.01:636][573]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2018.10.22-23.59.02:079][573]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/Blueprints/BTService_BlueprintBase_New.
+[2018.10.22-23.59.25:913][907]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AgroCheck.SKEL_AgroCheck_C' ref from Metadata '/Game/TopDownBP/Blueprints/BTService_BlueprintBase_New.PackageMetaData'
+[2018.10.22-23.59.25:913][907]LogMetaData: Removing '/Game/TopDownBP/Blueprints/AgroCheck.AgroCheck_C' ref from Metadata '/Game/TopDownBP/Blueprints/BTService_BlueprintBase_New.PackageMetaData'
+[2018.10.22-23.59.25:937][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/AgroCheck" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AgroCheck.uasset" SILENT=true
+[2018.10.22-23.59.25:947][907]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AgroCheck01627B694687A815782EDEA847F90566.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/AgroCheck.uasset'
+[2018.10.22-23.59.26:373][911]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/TopDownBP/Blueprints/AgroCheck.
+[2018.10.22-23.59.39:134][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19767"
+[2018.10.22-23.59.39:134][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19779"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19794"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19800"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19806"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19848"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19860"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19866"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19914"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19953"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19962"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19968"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20016"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20028"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20037"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20058"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20064"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20070"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20088"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20094"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20100"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20106"
+[2018.10.22-23.59.39:135][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20124"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20142"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20154"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20172"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20178"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20190"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20196"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20208"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20214"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20220"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20226"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20232"
+[2018.10.22-23.59.39:136][369]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20238"
+[2018.10.22-23.59.39:147][369]LogBlueprint: Error: [AgroCheck] CommutativeAssociativeBinaryOperator has no function: 'None' class: 'None'
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19767"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19779"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19794"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19800"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19806"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19848"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19860"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19866"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19914"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19953"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19962"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_19968"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20016"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20028"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20037"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20058"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20064"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20070"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20088"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20094"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20100"
+[2018.10.22-23.59.59:515][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20106"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20124"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20142"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20154"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20172"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20178"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20190"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20196"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20208"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20214"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20220"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20226"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20232"
+[2018.10.22-23.59.59:516][805]Error: BEGIN OBJECT: Invalid class specified:                 Begin Object Class=EdGraphPin Name="EdGraphPin_20238"
+[2018.10.22-23.59.59:526][805]LogBlueprint: Error: [AgroCheck] CommutativeAssociativeBinaryOperator has no function: 'None' class: 'None'
+[2018.10.23-00.00.00:901][908]LogEditorTransaction: Undo Paste clipboard contents
+[2018.10.23-00.03.26:546][689]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_Auto2903159264A2113015CCED78BD89322D7.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Maps/JuliansTestMap_Auto2.umap'
+[2018.10.23-00.03.26:551][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/JuliansTestMap' took 0.295
+[2018.10.23-00.03.26:551][689]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.295
+[2018.10.23-00.03.26:553][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/CharacterBT] ([1] browsable assets)...
+[2018.10.23-00.03.26:553][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/CharacterBT]
+[2018.10.23-00.03.26:571][689]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT_Auto203AFA816494A147558FED8BD075D8939.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/CharacterBT_Auto2.uasset'
+[2018.10.23-00.03.26:573][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/AgroCheck] ([1] browsable assets)...
+[2018.10.23-00.03.26:573][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/AgroCheck]
+[2018.10.23-00.03.26:594][689]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/AgroCheck_Auto293A3E2284B49DCCA15D72BAAEB9A2D61.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Blueprints/AgroCheck_Auto2.uasset'
+[2018.10.23-00.03.26:595][689]LogFileHelpers: Auto-saving content packages took 0.043
+[2018.10.23-00.04.35:770][ 11]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/BTTask_BlueprintBase_New.BTTask_BlueprintBase_New
+[2018.10.23-00.04.36:199][ 11]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/TopDownBP/Blueprints/BTTask_BlueprintBase_New.
+[2018.10.23-00.04.58:998][604]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.23-00.04.59:166][604]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.10.23-00.04.59:318][604]LogSlate: Window 'BTTask_BlueprintBase_New*' being destroyed
+[2018.10.23-00.05.04:971][755]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.23-00.05.05:950][803]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/TopDownBP/Blueprints/CharacterBT.CharacterBT
+[2018.10.23-00.05.09:412][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.23-00.05.09:430][ 34]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT4159A6C845958CFF504708B91B9DE084.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.23-00.05.24:087][102]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.10.23-00.05.32:572][558]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.10.23-00.12.32:292][767]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.23-00.12.32:314][767]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBT4978E868473D7E16504FE4909A720852.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.23-00.12.56:994][848]LogEditorTransaction: Undo Move Node
+[2018.10.23-00.12.57:261][861]LogEditorTransaction: Undo Add Node
+[2018.10.23-00.12.57:465][867]LogEditorTransaction: Undo Move Nodes
+[2018.10.23-00.12.57:674][880]LogEditorTransaction: Undo Delete current selection
+[2018.10.23-00.12.57:881][893]LogEditorTransaction: Undo Create Pin Link
+[2018.10.23-00.12.59:970][ 37]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.23-00.13.12:084][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/CharacterBT" FILE="../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset" SILENT=true
+[2018.10.23-00.13.12:101][ 42]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/CharacterBTC6E8F0D24A0D8FAC3D14C7942FECB462.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/CharacterBT.uasset'
+[2018.10.23-00.13.15:423][287]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterD4C91B0F4BECD50442ABB6BE4780E5AF.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.23-00.13.47:215][549]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_Auto3DAFCD4AB4EB1820B595EBBBCC5E58D23.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Maps/JuliansTestMap_Auto3.umap'
+[2018.10.23-00.13.47:219][549]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/JuliansTestMap' took 0.307
+[2018.10.23-00.13.47:219][549]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.307
+[2018.10.23-00.15.33:410][760]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterDA8A75C64F9D2C2F0CA4DFA97C1E5B1B.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.23-00.15.34:106][806]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.23-00.15.34:710][823]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterC541791D45994A88FB909DAF09A5D3BB.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.23-00.15.38:882][898]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.23-00.15.38:918][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.15.38:923][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.23-00.15.38:923][898]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 4:15:38 PM)
+[2018.10.23-00.15.38:923][898]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.23-00.15.38:938][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015305s)
+[2018.10.23-00.15.38:939][898]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.23-00.15.38:939][898]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2018.10.23-00.15.38:939][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.016457s)
+[2018.10.23-00.15.39:035][898]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.23-00.15.39:047][898]LogInit: FAudioDevice initialized.
+[2018.10.23-00.15.39:079][898]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.23-00.15.39:083][898]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-20.15.39
+[2018.10.23-00.15.39:083][898]LogWorld: Bringing up level for play took: 0.004027
+[2018.10.23-00.15.39:097][898]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap 0.081
+[2018.10.23-00.15.39:098][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.15.43:637][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.23-00.15.43:759][286]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.15.43:764][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.23-00.15.43:804][286]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.23-00.15.43:804][286]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.15.43:845][286]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.23-00.15.43:931][287]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2018.10.23-00.15.49:123][607]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterAE01098145BDE48281A8F1B5358AAAD6.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.23-00.15.50:076][669]BlueprintLog: New page: Compile TopDownCharacter
+[2018.10.23-00.15.50:636][685]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacterBBECB3DE4C772747966927A1E2BF76E4.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.23-00.15.51:214][723]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.23-00.15.51:249][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.15.51:253][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.23-00.15.51:253][723]PIE: New page: PIE session: JuliansTestMap (Oct 22, 2018, 4:15:51 PM)
+[2018.10.23-00.15.51:253][723]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap
+[2018.10.23-00.15.51:265][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012222s)
+[2018.10.23-00.15.51:266][723]LogAIModule: Creating AISystem for world JuliansTestMap
+[2018.10.23-00.15.51:266][723]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2018.10.23-00.15.51:266][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap to /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap (0.013260s)
+[2018.10.23-00.15.51:365][723]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.23-00.15.51:377][723]LogInit: FAudioDevice initialized.
+[2018.10.23-00.15.51:407][723]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.23-00.15.51:412][723]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap.JuliansTestMap up for play (max tick rate 0) at 2018.10.22-20.15.51
+[2018.10.23-00.15.51:412][723]LogWorld: Bringing up level for play took: 0.003862
+[2018.10.23-00.15.51:426][723]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_JuliansTestMap 0.41
+[2018.10.23-00.15.51:426][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.16.00:293][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.23-00.16.00:411][458]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.16.00:415][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.23-00.16.00:459][458]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.23-00.16.00:459][458]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap' with GeneratedClass '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/JuliansTestMap.JuliansTestMap:PersistentLevel.JuliansTestMap'
+[2018.10.23-00.16.00:502][458]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.23-00.16.00:565][459]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2018.10.23-00.16.02:508][593]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/TopDownCharacter5654DCCA4359AB5DA3076B9C4E2F5870.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.10.23-00.24.01:723][653]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/JuliansTestMap_Auto46F4A5F584732CB3AC580558FA37A9D61.tmp' to '../../../../../../Users/Graphic/Desktop/NightWatch/NightWatch/Saved/Autosaves/Game/TopDownBP/Maps/JuliansTestMap_Auto4.umap'
+[2018.10.23-00.24.01:727][653]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/JuliansTestMap' took 0.290
+[2018.10.23-00.24.01:727][653]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290

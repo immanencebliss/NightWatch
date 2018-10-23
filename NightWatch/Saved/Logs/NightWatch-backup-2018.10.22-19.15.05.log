@@ -1,0 +1,654 @@
+﻿Log file open, 10/22/18 18:46:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NightWatch
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.880276
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.139s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU:       Intel(R) Xeon(R) CPU E5-2697 v2 @ 2.70GHz, GPU: AMD FirePro D700 (FireGL V)
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.22-22.46.38:086][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-22.46.38:086][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.22-22.46.38:113][  0]LogHAL: Display: Platform has ~ 32 GB [34329395200 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.22-22.46.38:113][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.22-22.46.38:113][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.22-22.46.38:117][  0]LogInit: Computer: SJH607-O3W
+[2018.10.22-22.46.38:117][  0]LogInit: User: Graphic
+[2018.10.22-22.46.38:117][  0]LogInit: CPU Page size=4096, Cores=12
+[2018.10.22-22.46.38:117][  0]LogInit: High frequency timer resolution =2.636718 MHz
+[2018.10.22-22.46.38:118][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.10.22-22.46.38:118][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.22-22.46.38:118][  0]LogMemory: Process Physical Memory: 104.95 MB used, 104.95 MB peak
+[2018.10.22-22.46.38:118][  0]LogMemory: Process Virtual Memory: 95.04 MB used, 95.04 MB peak
+[2018.10.22-22.46.38:118][  0]LogMemory: Physical Memory: 12020.98 MB used,  20718.09 MB free, 32739.06 MB total
+[2018.10.22-22.46.38:118][  0]LogMemory: Virtual Memory: 4710.03 MB used,  20718.09 MB free, 134217728.00 MB total
+[2018.10.22-22.46.38:305][  0]LogInit: Using OS detected language (en-US).
+[2018.10.22-22.46.38:305][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.22-22.46.38:306][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.22-22.46.38:799][  0]LogStreaming: Display: Took  0.494s to InitEngineTextLocalization.
+[2018.10.22-22.46.38:799][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.22-22.46.38:896][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.22-22.46.38:896][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.22-22.46.41:387][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-22.46.41:387][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.22-22.46.41:415][  0]LogD3D11RHI:    0. 'AMD FirePro D700 (FireGL V)' (Feature Level 11_0)
+[2018.10.22-22.46.41:415][  0]LogD3D11RHI:       6124/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.10.22-22.46.41:418][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.22-22.46.41:418][  0]LogD3D11RHI:       0/0/16369 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.22-22.46.41:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.22-22.46.41:424][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.22-22.46.41:424][  0]LogD3D11RHI:     GPU DeviceId: 0x6798 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.22-22.46.41:424][  0]LogWindows: EnumDisplayDevices:
+[2018.10.22-22.46.41:425][  0]LogWindows:    0. 'AMD FirePro D700 (FireGL V)' (P:1 D:1)
+[2018.10.22-22.46.41:425][  0]LogWindows:    1. 'AMD FirePro D700 (FireGL V)' (P:0 D:1)
+[2018.10.22-22.46.41:425][  0]LogWindows:    2. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-22.46.41:426][  0]LogWindows:    3. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-22.46.41:426][  0]LogWindows:    4. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-22.46.41:426][  0]LogWindows:    5. 'AMD FirePro D700 (FireGL V)' (P:0 D:0)
+[2018.10.22-22.46.41:427][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2018.10.22-22.46.41:427][  0]LogD3D11RHI:     Adapter Name: AMD FirePro D700 (FireGL V)
+[2018.10.22-22.46.41:427][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.6 (internal:22.19.170.1536, unified:22.19.170.1536)
+[2018.10.22-22.46.41:427][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2018.10.22-22.46.41:427][  0]LogRHI: Texture pool is 4287 MB (70% of 6124 MB)
+[2018.10.22-22.46.41:592][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.22-22.46.41:606][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.10.22-22.46.41:610][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Intermediate/Shaders/WorkingDirectory/23412/).
+[2018.10.22-22.46.41:610][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Graphic/AppData/Local/Temp/UnrealShaderWorkingDir/9976EDB14F7CFD7138D833AC39EBF997/'.
+[2018.10.22-22.46.42:250][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.22-22.46.42:277][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.22-22.46.42:307][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.22-22.46.42:337][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.22-22.46.42:373][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.22-22.46.42:401][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.22-22.46.42:431][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.22-22.46.42:462][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.22-22.46.42:485][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:608][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.22-22.46.42:621][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.22-22.46.42:729][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-22.46.42:729][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.22-22.46.42:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-22.46.42:772][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.22-22.46.42:801][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.22-22.46.42:828][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.22-22.46.42:855][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.22-22.46.42:890][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.22-22.46.42:913][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.22-22.46.42:913][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.22-22.46.43:204][  0]LogXGEController: Cleaning working directory: C:/Users/Graphic/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.22-22.46.43:204][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.22-22.46.43:204][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.22-22.46.43:204][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.22-22.46.45:323][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.22-22.46.45:404][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.22-22.46.45:427][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.22-22.46.45:440][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Graphic/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.22-22.46.45:440][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.22-22.46.45:440][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.22-22.46.45:461][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.22-22.46.45:463][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.22-22.46.45:479][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.22-22.46.45:749][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2018.10.22-22.46.46:204][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.22-22.46.46:454][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.22-22.46.46:483][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.22-22.46.46:483][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.22-22.46.46:483][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.22-22.46.46:483][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.22-22.46.46:629][  0]LogNetVersion: NightWatch 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171399734)
+[2018.10.22-22.46.47:731][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.127421 seconds
+[2018.10.22-22.46.47:738][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.22-22.46.47:738][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.22-22.46.47:739][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.22-22.46.51:331][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.22-22.46.51:356][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.22-22.46.51:773][  0]SourceControl: Source control is disabled
+[2018.10.22-22.46.51:773][  0]SourceControl: Source control is disabled
+[2018.10.22-22.46.51:788][  0]SourceControl: Source control is disabled
+[2018.10.22-22.46.51:800][  0]SourceControl: Source control is disabled
+[2018.10.22-22.46.52:410][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.22-22.46.52:674][  0]LogOcInput: OculusInput pre-init called
+[2018.10.22-22.46.52:811][  0]LogEngine: Initializing Engine...
+[2018.10.22-22.46.52:812][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.22-22.46.52:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-22.46.52:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-22.46.52:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-22.46.52:814][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-22.46.53:076][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.22-22.46.53:105][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.22-22.46.53:178][  0]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-22.46.53:198][  0]LogInit: FAudioDevice initialized.
+[2018.10.22-22.46.53:199][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.22-22.46.53:255][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Graphic/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.22-22.46.53:267][  0]LogInit: Texture streaming: Enabled
+[2018.10.22-22.46.53:335][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.22-22.46.53:373][  0]LogInit: Transaction tracking system initialized
+[2018.10.22-22.46.53:459][  0]BlueprintLog: New page: Editor Load
+[2018.10.22-22.46.53:825][  0]LocalizationService: Localization service is disabled
+[2018.10.22-22.46.54:349][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.22-22.46.54:349][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.22-22.46.54:349][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.22-22.46.54:349][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.22-22.46.54:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Content/' took 0.02s
+[2018.10.22-22.46.54:863][  0]SourceControl: Source control is disabled
+[2018.10.22-22.46.54:863][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.46.54:864][  0]LightingResults: New page: Lighting Build
+[2018.10.22-22.46.54:866][  0]MapCheck: New page: Map Check
+[2018.10.22-22.46.54:866][  0]LightingResults: New page: Lighting Build
+[2018.10.22-22.46.55:812][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.22-22.46.55:865][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.46.55:909][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.46.55:989][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.957ms to complete.
+[2018.10.22-22.46.55:989][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.125
+[2018.10.22-22.46.56:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.46.56:163][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.46.56:172][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.46.56:181][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.46.56:205][  0]LogCollectionManager: Loaded 0 collections in 0.001493 seconds
+[2018.10.22-22.46.56:254][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/Collections/' took 0.01s
+[2018.10.22-22.46.56:254][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Content/Developers/Graphic/Collections/' took 0.01s
+[2018.10.22-22.46.56:254][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Graphic/Desktop/WatchFolder/NightWatch/Content/Collections/' took 0.01s
+[2018.10.22-22.46.56:254][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.22-22.46.56:265][  0]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2572 classes and 603 folders.
+[2018.10.22-22.46.56:272][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.22-22.46.56:630][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.22-22.46.56:650][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.22-22.46.56:719][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.22-22.46.56:719][  0]LogLoad: (Engine Initialization) Total time: 22.80 seconds
+[2018.10.22-22.46.56:719][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.22-22.46.56:752][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.22-22.46.56:758][  0]LogSlate: Took 0.004947 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.22-22.46.56:764][  0]LogSlate: Took 0.003887 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.22-22.46.56:775][  0]LogSlate: Took 0.004603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.22-22.46.56:939][  1]LogRenderer: Reallocating scene render targets to support 804x496 Format 10 NumSamples 1 (Frame:1).
+[2018.10.22-22.46.57:046][  1]LogAssetRegistry: Asset discovery search completed in 11.3200 seconds
+[2018.10.22-22.46.57:049][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.22-22.46.57:049][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2018.10.22-22.47.10:017][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.47.28:438][570]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:3438).
+[2018.10.22-22.48.22:237][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2018.10.22-22.48.23:864][739]Cmd: DELETE
+[2018.10.22-22.48.23:864][739]Cmd: ACTOR DELETE
+[2018.10.22-22.48.23:882][739]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.48.23:946][739]LogEditorActor: Deleted 1 Actors (0.078 secs)
+[2018.10.22-22.48.25:052][825]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.10.22-22.48.25:981][890]Cmd: DELETE
+[2018.10.22-22.48.25:981][890]Cmd: ACTOR DELETE
+[2018.10.22-22.48.25:984][890]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.48.26:020][890]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2018.10.22-22.48.26:663][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
+[2018.10.22-22.48.26:835][948]Cmd: DELETE
+[2018.10.22-22.48.26:835][948]Cmd: ACTOR DELETE
+[2018.10.22-22.48.26:840][948]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.48.26:876][948]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.22-22.48.27:618][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.10.22-22.48.31:227][273]Cmd: TRANSACTION UNDO
+[2018.10.22-22.48.31:227][273]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-22.48.31:255][273]LogSlate: Took 0.005354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-22.48.31:583][296]Cmd: TRANSACTION UNDO
+[2018.10.22-22.48.31:583][296]LogEditorTransaction: Undo Delete Actors
+[2018.10.22-22.48.31:871][307]Cmd: TRANSACTION UNDO
+[2018.10.22-22.48.31:871][307]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-22.48.32:107][321]Cmd: TRANSACTION UNDO
+[2018.10.22-22.48.32:107][321]LogEditorTransaction: Undo Delete Actors
+[2018.10.22-22.48.32:358][332]Cmd: TRANSACTION UNDO
+[2018.10.22-22.48.32:358][332]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-22.48.32:769][359]Cmd: TRANSACTION UNDO
+[2018.10.22-22.48.32:770][359]LogEditorTransaction: Undo Delete Actors
+[2018.10.22-22.48.33:203][381]Cmd: TRANSACTION UNDO
+[2018.10.22-22.48.33:203][381]LogEditorTransaction: Undo Clicking on Actors
+[2018.10.22-22.48.41:943][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.48.54:603][ 19]LogSlate: Window 'New Level' being destroyed
+[2018.10.22-22.48.54:612][ 19]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.48.54:641][ 19]LightingResults: New page: Lighting Build
+[2018.10.22-22.48.54:642][ 19]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.10.22-22.48.54:644][ 19]MapCheck: New page: Map Check
+[2018.10.22-22.48.54:645][ 19]LightingResults: New page: Lighting Build
+[2018.10.22-22.48.54:708][ 19]LogAIModule: Creating AISystem for world Untitled_1
+[2018.10.22-22.48.54:719][ 19]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.48.54:766][ 19]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.48.54:850][ 19]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.933ms to complete.
+[2018.10.22-22.48.54:850][ 19]LogFileHelpers: Loading map 'Template_Default' took 0.240
+[2018.10.22-22.49.12:941][223]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.22-22.49.24:971][223]LogSlate: Window 'Save Level As' being destroyed
+[2018.10.22-22.49.25:165][223]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMapFF06EC6D44C233A2316CF1BDD57D6ECD.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
+[2018.10.22-22.49.25:236][223]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap_BuiltDataE80A12CA4517DE8841CC61B569D23EE3.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap_BuiltData.uasset'
+[2018.10.22-22.49.25:250][223]LogFileHelpers: Saving map 'WillsTestMap' took 0.269
+[2018.10.22-22.49.29:513][553]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.22-22.49.29:529][553]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2018.10.22-22.49.29:566][553]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.49.29:567][553]LightingResults: New page: Lighting Build
+[2018.10.22-22.49.29:567][553]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2018.10.22-22.49.29:568][553]MapCheck: New page: Map Check
+[2018.10.22-22.49.29:568][553]LightingResults: New page: Lighting Build
+[2018.10.22-22.49.29:620][553]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.49.29:702][553]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.49.29:785][553]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.569ms to complete.
+[2018.10.22-22.49.29:786][553]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.221
+[2018.10.22-22.49.53:244][235]Cmd: EDIT COPY
+[2018.10.22-22.49.55:277][365]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.22-22.49.55:281][365]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
+[2018.10.22-22.49.55:319][365]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.49.55:320][365]LightingResults: New page: Lighting Build
+[2018.10.22-22.49.55:320][365]LoadErrors: New page: Loading map: WillsTestMap.umap
+[2018.10.22-22.49.55:323][365]MapCheck: New page: Map Check
+[2018.10.22-22.49.55:323][365]LightingResults: New page: Lighting Build
+[2018.10.22-22.49.55:363][365]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.49.55:444][365]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.49.55:528][365]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.201ms to complete.
+[2018.10.22-22.49.55:529][365]LogFileHelpers: Loading map 'WillsTestMap' took 0.212
+[2018.10.22-22.49.57:600][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.22-22.49.58:136][568]Cmd: EDIT PASTE
+[2018.10.22-22.50.04:397][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.50.05:471][ 64]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.22-22.50.05:489][ 64]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2018.10.22-22.50.06:561][ 64]LogSlate: Window 'Save Content' being destroyed
+[2018.10.22-22.50.06:742][ 64]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap91F24808420712B90D0CD29C950091B7.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
+[2018.10.22-22.50.06:789][ 64]LogFileHelpers: Saving map 'WillsTestMap' took 0.217
+[2018.10.22-22.50.06:790][ 64]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.50.06:790][ 64]LightingResults: New page: Lighting Build
+[2018.10.22-22.50.06:791][ 64]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2018.10.22-22.50.06:792][ 64]MapCheck: New page: Map Check
+[2018.10.22-22.50.06:792][ 64]LightingResults: New page: Lighting Build
+[2018.10.22-22.50.06:844][ 64]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.50.06:926][ 64]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.50.07:009][ 64]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.736ms to complete.
+[2018.10.22-22.50.07:014][ 64]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.224
+[2018.10.22-22.50.12:383][418]Cmd: EDIT COPY
+[2018.10.22-22.50.13:738][509]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.22-22.50.13:742][509]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
+[2018.10.22-22.50.13:781][509]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.50.13:781][509]LightingResults: New page: Lighting Build
+[2018.10.22-22.50.13:782][509]LoadErrors: New page: Loading map: WillsTestMap.umap
+[2018.10.22-22.50.13:784][509]MapCheck: New page: Map Check
+[2018.10.22-22.50.13:784][509]LightingResults: New page: Lighting Build
+[2018.10.22-22.50.13:825][509]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.50.13:905][509]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.50.13:985][509]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.53ms to complete.
+[2018.10.22-22.50.13:986][509]LogFileHelpers: Loading map 'WillsTestMap' took 0.206
+[2018.10.22-22.50.16:100][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.10.22-22.50.17:292][748]Cmd: EDIT PASTE
+[2018.10.22-22.50.24:897][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube30)
+[2018.10.22-22.50.25:919][350]Cmd: DELETE
+[2018.10.22-22.50.25:919][350]Cmd: ACTOR DELETE
+[2018.10.22-22.50.25:921][350]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.25:962][350]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2018.10.22-22.50.26:501][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube31)
+[2018.10.22-22.50.26:612][394]Cmd: DELETE
+[2018.10.22-22.50.26:612][394]Cmd: ACTOR DELETE
+[2018.10.22-22.50.26:615][394]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.26:653][394]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.10.22-22.50.27:241][440]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube20)
+[2018.10.22-22.50.27:814][478]Cmd: DELETE
+[2018.10.22-22.50.27:814][478]Cmd: ACTOR DELETE
+[2018.10.22-22.50.27:817][478]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.27:856][478]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.10.22-22.50.28:275][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube17)
+[2018.10.22-22.50.28:487][522]Cmd: DELETE
+[2018.10.22-22.50.28:487][522]Cmd: ACTOR DELETE
+[2018.10.22-22.50.28:490][522]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.28:528][522]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.22-22.50.29:242][578]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.10.22-22.50.29:352][580]Cmd: DELETE
+[2018.10.22-22.50.29:352][580]Cmd: ACTOR DELETE
+[2018.10.22-22.50.29:354][580]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.29:391][580]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2018.10.22-22.50.29:904][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube22)
+[2018.10.22-22.50.30:041][625]Cmd: DELETE
+[2018.10.22-22.50.30:041][625]Cmd: ACTOR DELETE
+[2018.10.22-22.50.30:043][625]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.30:081][625]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2018.10.22-22.50.30:487][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.10.22-22.50.31:352][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube21)
+[2018.10.22-22.50.31:615][733]Cmd: DELETE
+[2018.10.22-22.50.31:615][733]Cmd: ACTOR DELETE
+[2018.10.22-22.50.31:618][733]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.31:654][733]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2018.10.22-22.50.35:146][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2018.10.22-22.50.35:539][ 17]Cmd: DELETE
+[2018.10.22-22.50.35:539][ 17]Cmd: ACTOR DELETE
+[2018.10.22-22.50.35:542][ 17]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.35:579][ 17]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.22-22.50.35:995][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube28)
+[2018.10.22-22.50.36:217][ 62]Cmd: DELETE
+[2018.10.22-22.50.36:217][ 62]Cmd: ACTOR DELETE
+[2018.10.22-22.50.36:220][ 62]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.36:257][ 62]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2018.10.22-22.50.36:831][108]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube25)
+[2018.10.22-22.50.36:976][114]Cmd: DELETE
+[2018.10.22-22.50.36:976][114]Cmd: ACTOR DELETE
+[2018.10.22-22.50.36:979][114]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.37:016][114]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.22-22.50.37:767][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube8)
+[2018.10.22-22.50.37:950][183]Cmd: DELETE
+[2018.10.22-22.50.37:950][183]Cmd: ACTOR DELETE
+[2018.10.22-22.50.37:952][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.37:991][183]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.22-22.50.38:595][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2018.10.22-22.50.38:752][238]Cmd: DELETE
+[2018.10.22-22.50.38:752][238]Cmd: ACTOR DELETE
+[2018.10.22-22.50.38:754][238]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.50.38:794][238]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2018.10.22-22.50.43:807][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.10.22-22.50.54:041][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2018.10.22-22.50.56:417][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2018.10.22-22.51.10:052][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2018.10.22-22.51.11:039][596]Cmd: EDIT COPY
+[2018.10.22-22.51.11:403][624]Cmd: EDIT PASTE
+[2018.10.22-22.51.18:692][165]Cmd: DELETE
+[2018.10.22-22.51.18:692][165]Cmd: ACTOR DELETE
+[2018.10.22-22.51.18:694][165]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.51.18:731][165]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2018.10.22-22.51.19:722][243]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2018.10.22-22.51.20:604][305]Cmd: EDIT COPY
+[2018.10.22-22.51.20:827][322]Cmd: EDIT PASTE
+[2018.10.22-22.51.35:486][409]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.10.22-22.51.53:228][681]Cmd: EDIT COPY
+[2018.10.22-22.51.53:421][696]Cmd: EDIT PASTE
+[2018.10.22-22.52.12:464][ 92]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2018.10.22-22.52.23:105][860]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2018.10.22-22.52.32:374][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2018.10.22-22.52.37:322][897]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.10.22-22.52.40:529][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.52.44:004][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2018.10.22-22.52.46:216][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.53.03:408][806]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2018.10.22-22.53.42:380][688]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2018.10.22-22.53.46:072][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2018.10.22-22.53.49:640][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall5)
+[2018.10.22-22.54.18:464][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube23)
+[2018.10.22-22.54.20:064][492]Cmd: EDIT COPY
+[2018.10.22-22.54.20:311][511]Cmd: EDIT PASTE
+[2018.10.22-22.54.24:948][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.10.22-22.54.37:519][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2018.10.22-22.54.45:877][371]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2018.10.22-22.54.58:838][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2018.10.22-22.54.59:765][399]Cmd: EDIT COPY
+[2018.10.22-22.54.59:966][414]Cmd: EDIT PASTE
+[2018.10.22-22.55.22:904][129]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2018.10.22-22.55.23:932][202]Cmd: EDIT COPY
+[2018.10.22-22.55.24:141][217]Cmd: EDIT PASTE
+[2018.10.22-22.55.32:585][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube24)
+[2018.10.22-22.55.33:507][908]Cmd: EDIT COPY
+[2018.10.22-22.55.33:724][922]Cmd: EDIT PASTE
+[2018.10.22-22.55.43:894][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2018.10.22-22.55.48:688][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube27)
+[2018.10.22-22.55.50:832][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube29)
+[2018.10.22-22.55.55:179][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.10.22-22.55.58:985][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube26)
+[2018.10.22-22.56.08:768][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.56.08:965][489]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMapA311ACB048A31CC9E83296B56CB52711.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
+[2018.10.22-22.56.09:048][489]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap_BuiltData8F2181464DD42D59D52BC6AD8FD67756.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap_BuiltData.uasset'
+[2018.10.22-22.56.10:247][568]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.22-22.56.10:265][568]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2018.10.22-22.56.10:304][568]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.56.10:304][568]LightingResults: New page: Lighting Build
+[2018.10.22-22.56.10:305][568]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2018.10.22-22.56.10:306][568]MapCheck: New page: Map Check
+[2018.10.22-22.56.10:306][568]LightingResults: New page: Lighting Build
+[2018.10.22-22.56.10:360][568]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.56.10:443][568]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.56.10:526][568]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.013ms to complete.
+[2018.10.22-22.56.10:527][568]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.225
+[2018.10.22-22.56.39:799][349]Cmd: EDIT COPY
+[2018.10.22-22.56.45:393][621]Cmd: EDIT COPY
+[2018.10.22-22.56.50:415][876]Cmd: EDIT COPY
+[2018.10.22-22.56.54:887][111]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.22-22.56.54:892][111]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
+[2018.10.22-22.56.54:931][111]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.56.54:931][111]LightingResults: New page: Lighting Build
+[2018.10.22-22.56.54:932][111]LoadErrors: New page: Loading map: WillsTestMap.umap
+[2018.10.22-22.56.54:964][111]MapCheck: New page: Map Check
+[2018.10.22-22.56.54:964][111]LightingResults: New page: Lighting Build
+[2018.10.22-22.56.55:006][111]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.56.55:086][111]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.56.55:170][111]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.034ms to complete.
+[2018.10.22-22.56.55:171][111]LogFileHelpers: Loading map 'WillsTestMap' took 0.242
+[2018.10.22-22.56.56:566][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.10.22-22.56.57:686][292]Cmd: EDIT PASTE
+[2018.10.22-22.56.57:760][292]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.10.22-22.57.02:488][521]LogEditorViewport: Clicking on Actor (LMB): GodCam_C (GodCam)
+[2018.10.22-22.57.10:521][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.10.22-22.57.11:653][995]Cmd: DELETE
+[2018.10.22-22.57.11:653][995]Cmd: ACTOR DELETE
+[2018.10.22-22.57.11:658][995]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.10.22-22.57.11:696][995]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2018.10.22-22.57.17:299][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.57.17:349][400]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-22.57.17:377][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-22.57.17:391][400]PIE: New page: PIE session: WillsTestMap (Oct 22, 2018, 2:57:17 PM)
+[2018.10.22-22.57.17:391][400]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap
+[2018.10.22-22.57.17:402][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010954s)
+[2018.10.22-22.57.17:403][400]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.22-22.57.17:404][400]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2018.10.22-22.57.17:404][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap to /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap (0.012362s)
+[2018.10.22-22.57.17:508][400]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-22.57.17:521][400]LogInit: FAudioDevice initialized.
+[2018.10.22-22.57.17:564][400]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-22.57.17:577][400]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap up for play (max tick rate 0) at 2018.10.22-18.57.17
+[2018.10.22-22.57.17:586][400]LogWorld: Bringing up level for play took: 0.017012
+[2018.10.22-22.57.17:609][400]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2018.10.22-22.57.17:613][400]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap 0.568
+[2018.10.22-22.57.24:435][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.57.24:493][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.57.24:525][946]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-22.57.24:565][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.57.24:590][947]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2018.10.22-22.57.27:255][122]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.22-22.57.27:272][122]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap
+[2018.10.22-22.57.28:198][122]LogSlate: Window 'Save Content' being destroyed
+[2018.10.22-22.57.28:411][122]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMapDAA7D5684A7173E01D846B928DBF17ED.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
+[2018.10.22-22.57.28:461][122]LogFileHelpers: Saving map 'WillsTestMap' took 0.252
+[2018.10.22-22.57.28:461][122]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.57.28:461][122]LightingResults: New page: Lighting Build
+[2018.10.22-22.57.28:462][122]LoadErrors: New page: Loading map: TopDownExampleMap.umap
+[2018.10.22-22.57.28:463][122]MapCheck: New page: Map Check
+[2018.10.22-22.57.28:463][122]LightingResults: New page: Lighting Build
+[2018.10.22-22.57.28:516][122]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.57.28:601][122]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.57.28:682][122]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.477ms to complete.
+[2018.10.22-22.57.28:687][122]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.227
+[2018.10.22-22.57.36:769][798]Cmd: EDIT COPY
+[2018.10.22-22.57.39:746][  9]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.22-22.57.39:759][  9]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
+[2018.10.22-22.57.39:800][  9]Cmd: MAP LOAD FILE="../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.22-22.57.39:800][  9]LightingResults: New page: Lighting Build
+[2018.10.22-22.57.39:801][  9]LoadErrors: New page: Loading map: WillsTestMap.umap
+[2018.10.22-22.57.39:803][  9]MapCheck: New page: Map Check
+[2018.10.22-22.57.39:803][  9]LightingResults: New page: Lighting Build
+[2018.10.22-22.57.39:854][  9]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.22-22.57.39:936][  9]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.22-22.57.40:015][  9]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.563ms to complete.
+[2018.10.22-22.57.40:017][  9]LogFileHelpers: Loading map 'WillsTestMap' took 0.218
+[2018.10.22-22.57.41:808][126]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.10.22-22.57.42:625][173]Cmd: EDIT PASTE
+[2018.10.22-22.57.45:113][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.57.45:189][343]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.22-22.57.45:215][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.22-22.57.45:215][343]PIE: New page: PIE session: WillsTestMap (Oct 22, 2018, 2:57:45 PM)
+[2018.10.22-22.57.45:215][343]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap
+[2018.10.22-22.57.45:222][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006837s)
+[2018.10.22-22.57.45:223][343]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.22-22.57.45:223][343]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2018.10.22-22.57.45:223][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap to /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap (0.007865s)
+[2018.10.22-22.57.45:332][343]LogInit: XAudio2 using 'Headphones (Cirrus Logic CS4208 (AB 120))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.22-22.57.45:344][343]LogInit: FAudioDevice initialized.
+[2018.10.22-22.57.45:374][343]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.22-22.57.45:381][343]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap up for play (max tick rate 0) at 2018.10.22-18.57.45
+[2018.10.22-22.57.45:383][343]LogWorld: Bringing up level for play took: 0.007912
+[2018.10.22-22.57.45:397][343]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap 0.352
+[2018.10.22-22.57.50:588][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.22-22.57.50:629][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.57.50:666][754]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.22-22.57.50:706][754]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.22-22.57.50:728][755]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2018.10.22-22.57.52:253][852]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap5CC6F28347693A11C9BF0F98B251B595.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
+[2018.10.22-22.57.52:332][852]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap_BuiltDataA20AC1434CB32457A5AC83AFE52882FA.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap_BuiltData.uasset'
