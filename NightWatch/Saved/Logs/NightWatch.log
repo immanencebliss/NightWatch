@@ -2431,3 +2431,6 @@ LogInit: Object subsystem initialized
 [2018.10.23-21.52.50:726][655]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2018.10.23-21.53.17:945][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2018.10.23-21.53.32:092][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.10.23-21.55.56:461][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.23-21.55.56:967][160]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap508381E1456CF3F7D3F1FAAD4AA44323.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap'
+[2018.10.23-21.55.57:052][160]LogSavePackage: Moving '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Saved/WillsTestMap_BuiltData72FB603042885DDBBB5EAC82F2CB5723.tmp' to '../../../../../../Users/Graphic/Desktop/WatchFolder/NightWatch/Content/TopDownBP/Maps/WillsTestMap_BuiltData.uasset'
