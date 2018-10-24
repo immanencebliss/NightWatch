@@ -1,0 +1,571 @@
+﻿Log file open, 10/24/18 01:48:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: NightWatch
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.360712
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.141s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4302132
+LogInit: Engine Version: 4.20.2-4302132+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Aug 21 2018 02:06:06
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.10.24-05.48.47:688][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.24-05.48.47:688][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.24-05.48.47:714][  0]LogHAL: Display: Platform has ~ 16 GB [17129394176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.24-05.48.47:714][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.24-05.48.47:714][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.24-05.48.47:719][  0]LogInit: Computer: ARTHUR
+[2018.10.24-05.48.47:719][  0]LogInit: User: Ian
+[2018.10.24-05.48.47:719][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.24-05.48.47:719][  0]LogInit: High frequency timer resolution =3.027353 MHz
+[2018.10.24-05.48.47:719][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.10.24-05.48.47:719][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.24-05.48.47:719][  0]LogMemory: Process Physical Memory: 103.48 MB used, 103.48 MB peak
+[2018.10.24-05.48.47:719][  0]LogMemory: Process Virtual Memory: 92.42 MB used, 92.42 MB peak
+[2018.10.24-05.48.47:719][  0]LogMemory: Physical Memory: 8189.89 MB used,  8145.97 MB free, 16335.86 MB total
+[2018.10.24-05.48.47:719][  0]LogMemory: Virtual Memory: 4633.91 MB used,  8145.97 MB free, 134217728.00 MB total
+[2018.10.24-05.48.48:370][  0]LogInit: Using OS detected language (en-US).
+[2018.10.24-05.48.48:370][  0]LogInit: Using OS detected locale (en-US).
+[2018.10.24-05.48.48:371][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.10.24-05.48.48:860][  0]LogStreaming: Display: Took  0.491s to InitEngineTextLocalization.
+[2018.10.24-05.48.48:860][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.24-05.48.48:860][  0]LogInit: Warning: SetProcessDpiAwareness failed.  Error code 80070005
+[2018.10.24-05.48.48:992][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.24-05.48.48:992][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.24-05.48.51:340][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.24-05.48.51:341][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.24-05.48.51:415][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.10.24-05.48.51:415][  0]LogD3D11RHI:       8079/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.10.24-05.48.51:418][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.24-05.48.51:418][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.24-05.48.51:418][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.24-05.48.51:430][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.24-05.48.51:430][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.10.24-05.48.51:430][  0]LogWindows: EnumDisplayDevices:
+[2018.10.24-05.48.51:430][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.10.24-05.48.51:430][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.24-05.48.51:431][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.24-05.48.51:431][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.10.24-05.48.51:431][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.24-05.48.51:431][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.10.24-05.48.51:431][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2018.10.24-05.48.51:431][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2018.10.24-05.48.51:431][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2018.10.24-05.48.51:482][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.24-05.48.51:521][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.24-05.48.51:569][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061082).
+[2018.10.24-05.48.51:569][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (../../../../../../SourceTree/NightWatch/NightWatch/Intermediate/Shaders/WorkingDirectory/13280/).
+[2018.10.24-05.48.51:569][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ian/AppData/Local/Temp/UnrealShaderWorkingDir/F6A584D945F358C4A65364A0F2641ECD/'.
+[2018.10.24-05.48.52:115][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.24-05.48.52:156][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.24-05.48.52:190][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.24-05.48.52:229][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.24-05.48.52:269][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.24-05.48.52:306][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.24-05.48.52:344][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.24-05.48.52:374][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.24-05.48.52:401][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:540][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.24-05.48.52:562][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.24-05.48.52:727][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.24-05.48.52:727][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.24-05.48.52:775][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.24-05.48.52:775][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.24-05.48.52:811][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.24-05.48.52:847][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.24-05.48.52:895][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.24-05.48.52:958][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.24-05.48.52:997][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.24-05.48.52:997][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.24-05.48.54:083][  0]LogXGEController: Cleaning working directory: C:/Users/Ian/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.10.24-05.48.54:084][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.24-05.48.54:084][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.24-05.48.54:084][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.24-05.48.56:084][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.24-05.48.56:205][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Ian/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.24-05.48.56:206][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ian/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.24-05.48.56:206][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../SourceTree/NightWatch/NightWatch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.24-05.48.56:206][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.24-05.48.56:206][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../SourceTree/NightWatch/NightWatch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.24-05.48.56:206][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.24-05.48.56:226][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.24-05.48.56:239][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.24-05.48.56:239][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.24-05.48.56:239][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.24-05.48.56:261][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.24-05.48.56:263][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.24-05.48.56:281][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.24-05.48.56:491][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.10.24-05.48.56:858][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.24-05.48.57:495][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.24-05.48.57:599][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.24-05.48.57:599][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.24-05.48.57:599][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.24-05.48.57:599][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.24-05.48.57:642][  0]LogNetVersion: NightWatch 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 171399734)
+[2018.10.24-05.48.58:645][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.112393 seconds
+[2018.10.24-05.48.58:652][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.24-05.48.58:652][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.10.24-05.48.58:652][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.24-05.49.02:925][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.24-05.49.02:980][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.24-05.49.03:848][  0]SourceControl: Source control is disabled
+[2018.10.24-05.49.03:848][  0]SourceControl: Source control is disabled
+[2018.10.24-05.49.03:931][  0]SourceControl: Source control is disabled
+[2018.10.24-05.49.03:978][  0]SourceControl: Source control is disabled
+[2018.10.24-05.49.07:147][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.24-05.49.07:602][  0]LogOcInput: OculusInput pre-init called
+[2018.10.24-05.49.07:825][  0]LogEngine: Initializing Engine...
+[2018.10.24-05.49.07:826][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.24-05.49.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.24-05.49.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.24-05.49.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.24-05.49.07:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.24-05.49.08:064][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.24-05.49.08:124][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.24-05.49.08:219][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.24-05.49.08:258][  0]LogInit: FAudioDevice initialized.
+[2018.10.24-05.49.08:258][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.24-05.49.08:354][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/Ian/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.24-05.49.08:358][  0]LogInit: Texture streaming: Enabled
+[2018.10.24-05.49.08:524][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.24-05.49.08:583][  0]LogInit: Transaction tracking system initialized
+[2018.10.24-05.49.08:826][  0]BlueprintLog: New page: Editor Load
+[2018.10.24-05.49.10:533][  0]LocalizationService: Localization service is disabled
+[2018.10.24-05.49.11:635][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.24-05.49.11:635][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.24-05.49.11:635][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.24-05.49.11:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.24-05.49.11:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.24-05.49.11:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.24-05.49.11:635][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.24-05.49.12:376][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Content/' took 0.02s
+[2018.10.24-05.49.12:778][  0]SourceControl: Source control is disabled
+[2018.10.24-05.49.12:778][  0]Cmd: MAP LOAD FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-05.49.12:779][  0]LightingResults: New page: Lighting Build
+[2018.10.24-05.49.12:782][  0]MapCheck: New page: Map Check
+[2018.10.24-05.49.12:782][  0]LightingResults: New page: Lighting Build
+[2018.10.24-05.49.13:548][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2018.10.24-05.49.13:598][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-05.49.13:627][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-05.49.13:708][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.019ms to complete.
+[2018.10.24-05.49.13:708][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.929
+[2018.10.24-05.49.13:907][  0]LogCollectionManager: Loaded 0 collections in 0.001362 seconds
+[2018.10.24-05.49.13:949][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Saved/Collections/' took 0.01s
+[2018.10.24-05.49.13:949][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Content/Developers/Ian/Collections/' took 0.01s
+[2018.10.24-05.49.13:949][  0]LogFileCache: Scanning file cache for directory 'D:/SourceTree/NightWatch/NightWatch/Content/Collections/' took 0.01s
+[2018.10.24-05.49.13:949][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.24-05.49.13:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2572 classes and 603 folders.
+[2018.10.24-05.49.13:965][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.10.24-05.49.14:315][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.24-05.49.14:333][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.49.14:342][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.49.14:351][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.49.14:360][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.49.14:408][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.24-05.49.14:447][  0]LogSlate: Took 0.005093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.24-05.49.14:455][  0]LogSlate: Took 0.004821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.24-05.49.14:462][  0]LogSlate: Took 0.005106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.24-05.49.14:512][  0]LogSlate: Took 0.004366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.24-05.49.14:581][  0]LogRenderer: Reallocating scene render targets to support 1248x964 Format 10 NumSamples 1 (Frame:1).
+[2018.10.24-05.49.14:936][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.24-05.49.14:936][  0]LogLoad: (Engine Initialization) Total time: 31.94 seconds
+[2018.10.24-05.49.14:936][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.24-05.49.14:970][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.10.24-05.49.15:015][  1]LogAssetRegistry: Asset discovery search completed in 18.5471 seconds
+[2018.10.24-05.49.15:017][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.10.24-05.49.15:017][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2018.10.24-05.49.15:990][ 52]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.24-05.50.58:687][302]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-05.51.01:555][499]LogStaticMesh: Building static mesh oldcarriage_polySurface23...
+[2018.10.24-05.51.01:576][499]LogStaticMesh: Built static mesh [0.02s] /Game/TopDownBP/Buildings/Carriage/oldcarriage_polySurface23.oldcarriage_polySurface23
+[2018.10.24-05.51.01:578][499]LogStaticMesh: Building static mesh oldcarriage_pCylinder3_group1...
+[2018.10.24-05.51.01:582][499]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownBP/Buildings/Carriage/oldcarriage_pCylinder3_group1.oldcarriage_pCylinder3_group1
+[2018.10.24-05.51.01:651][499]LogStaticMesh: Building static mesh oldcarriage_group1_pCylinder4...
+[2018.10.24-05.51.01:655][499]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownBP/Buildings/Carriage/oldcarriage_group1_pCylinder4.oldcarriage_group1_pCylinder4
+[2018.10.24-05.51.01:656][499]LogStaticMesh: Building static mesh oldcarriage_pCylinder2...
+[2018.10.24-05.51.01:659][499]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownBP/Buildings/Carriage/oldcarriage_pCylinder2.oldcarriage_pCylinder2
+[2018.10.24-05.51.01:660][499]LogStaticMesh: Building static mesh oldcarriage_pCylinder1...
+[2018.10.24-05.51.01:664][499]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownBP/Buildings/Carriage/oldcarriage_pCylinder1.oldcarriage_pCylinder1
+[2018.10.24-05.51.01:665][499]LogStaticMesh: Building static mesh oldcarriage_polySurface30...
+[2018.10.24-05.51.01:672][499]LogStaticMesh: Built static mesh [0.01s] /Game/TopDownBP/Buildings/Carriage/oldcarriage_polySurface30.oldcarriage_polySurface30
+[2018.10.24-05.51.01:681][499]LogStaticMesh: Building static mesh Gamelantern_updated1...
+[2018.10.24-05.51.01:744][499]LogStaticMesh: Built static mesh [0.06s] /Game/TopDownBP/Buildings/lamp/Gamelantern_updated1.Gamelantern_updated1
+[2018.10.24-05.51.01:865][499]LogMaterial: Display: Missing cached shader map for material LookAtMat, compiling. 
+[2018.10.24-05.51.01:942][499]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.10.24-05.51.01:942][499]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.10.24-05.51.01:942][499]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.10.24-05.51.01:942][499]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.24-05.51.01:989][499]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap
+[2018.10.24-05.51.02:016][499]Cmd: MAP LOAD FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Maps/WillsTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.24-05.51.02:016][499]LightingResults: New page: Lighting Build
+[2018.10.24-05.51.02:017][499]LoadErrors: New page: Loading map: WillsTestMap.umap
+[2018.10.24-05.51.02:018][499]MapCheck: New page: Map Check
+[2018.10.24-05.51.02:018][499]LightingResults: New page: Lighting Build
+[2018.10.24-05.51.02:070][499]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.02:070][499]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer] ScaledElem[0] invalid
+[2018.10.24-05.51.02:073][499]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.02:073][499]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.51.02:073][499]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.02:073][499]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.51.02:073][499]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.02:073][499]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.51.02:097][499]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.24-05.51.02:237][499]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.24-05.51.02:324][499]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.052ms to complete.
+[2018.10.24-05.51.02:324][499]LogFileHelpers: Loading map 'WillsTestMap' took 0.309
+[2018.10.24-05.51.16:123][987]LogEditorViewport: Clicking on Actor (LMB): Muscle_C (Muscle)
+[2018.10.24-05.51.19:297][240]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-05.51.19:384][249]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-05.51.19:408][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.10.24-05.51.19:421][249]PIE: New page: PIE session: WillsTestMap (Oct 23, 2018, 9:51:19 PM)
+[2018.10.24-05.51.19:421][249]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap
+[2018.10.24-05.51.19:446][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025009s)
+[2018.10.24-05.51.19:447][249]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.24-05.51.19:447][249]LogPlayLevel: PIE: World Init took: (0.000911s)
+[2018.10.24-05.51.19:447][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap to /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap (0.026136s)
+[2018.10.24-05.51.19:488][249]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.24-05.51.19:515][249]LogInit: FAudioDevice initialized.
+[2018.10.24-05.51.19:561][249]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.24-05.51.19:564][249]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.19:565][249]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer] ScaledElem[0] invalid
+[2018.10.24-05.51.19:568][249]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.19:568][249]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.51.19:568][249]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.19:568][249]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.51.19:568][249]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.51.19:568][249]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.51.19:588][249]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap up for play (max tick rate 0) at 2018.10.24-01.51.19
+[2018.10.24-05.51.19:591][249]LogWorld: Bringing up level for play took: 0.028534
+[2018.10.24-05.51.19:608][249]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2018.10.24-05.51.19:609][249]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap 0.473
+[2018.10.24-05.51.31:025][598]LogBlueprintUserMessages: [Cube12] Hello
+[2018.10.24-05.51.42:296][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.51.42:335][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-05.51.42:362][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.51.42:403][952]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2018.10.24-05.51.52:968][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-05.52.49:602][155]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/NightWatchChar.NightWatchChar
+[2018.10.24-05.52.50:195][155]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 116 classes and 0 folders.
+[2018.10.24-05.52.51:242][155]LogSlate: Took 0.004315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.10.24-05.52.51:428][156]LogSlate: Took 0.008125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.10.24-05.53.13:823][424]BlueprintLog: New page: Compile NightWatchChar
+[2018.10.24-05.53.15:015][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/NightWatchChar" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/NightWatchChar.uasset" SILENT=true
+[2018.10.24-05.53.15:130][464]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/NightWatchCharC31342FB4844CCEE10661EA4820FE44C.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/NightWatchChar.uasset'
+[2018.10.24-05.53.28:112][421]LogSlate: Window 'NightWatchChar' being destroyed
+[2018.10.24-05.53.28:188][421]LogSlate: Window 'NightWatchChar' being destroyed
+[2018.10.24-05.53.29:737][596]LogEditorViewport: Clicking on Actor (LMB): StackedBoards_C (Cube12)
+[2018.10.24-05.53.33:908][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-05.53.34:180][977]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Interactable.Interactable
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:Update Camera.K2Node_FunctionEntry_0' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:IsolateYaw.K2Node_Tunnel_1' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:IsolateYaw.K2Node_Tunnel_0' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:Add Vector To Location.K2Node_Tunnel_1' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:Add Vector To Location.K2Node_Tunnel_0' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:CameraZoom.K2Node_FunctionEntry_0' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam:HoverGlow.K2Node_FunctionEntry_0' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:InpAxisEvt_MouseX_K2Node_InputAxisEvent_0' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:InpAxisEvt_MouseY_K2Node_InputAxisEvent_1' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_2' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_3' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:InpAxisEvt_Camera Zoom_K2Node_InputAxisEvent_4' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:ReceiveTick' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:ReceiveBeginPlay' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:HoverHandle' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:HoveredActor' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:SelectedActor' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Selected Character' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:bCanMoveCamera' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Direction' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:CameraSpeed' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Screen Border Buffer' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Zoom Min' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:ZoomMax' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:CameraLength' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Zoom Speed' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Movement Speed' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Edge Forward Axis' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Edge Right Axis' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:bRotateCamera?' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:DefaultSceneRoot' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Origin' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:Camera1' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:SpringArm' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:CursorToWorld' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:UserConstructionScript' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C:CameraZoom' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.SKEL_GodCam_C' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:HoverHandle' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:HoveredActor' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:SelectedActor' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Selected Character' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:bCanMoveCamera' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Direction' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:CameraSpeed' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:148][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Screen Border Buffer' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Zoom Min' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:ZoomMax' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:CameraLength' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Zoom Speed' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Movement Speed' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Edge Forward Axis' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Edge Right Axis' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:bRotateCamera?' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:DefaultSceneRoot' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Origin' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:Camera1' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:SpringArm' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:CursorToWorld' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:ReceiveBeginPlay' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:ReceiveTick' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:UserConstructionScript' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:149][509]LogMetaData: Removing '/Game/TopDownBP/Blueprints/GodCam.GodCam_C:CameraZoom' ref from Metadata '/Game/GodCam.PackageMetaData'
+[2018.10.24-05.54.14:344][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/GodCam" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/GodCam.uasset" SILENT=true
+[2018.10.24-05.54.14:451][509]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/GodCamAB0290124A92B9E2C2BC2480F26B7D91.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/GodCam.uasset'
+[2018.10.24-05.54.14:460][509]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/GodCam" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/GodCam.uasset" SILENT=true
+[2018.10.24-05.54.14:484][509]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/GodCam2A1A28F0452CBDAD2DA41FA3AED66F0B.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Content/GodCam.uasset'
+[2018.10.24-05.54.20:686][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.StackedBoards:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.StackedBoards_C' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.SKEL_StackedBoards_C:SharedRoot' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.SKEL_StackedBoards_C:StaticMeshComponent0' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.SKEL_StackedBoards_C:StaticMeshComponent01' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.SKEL_StackedBoards_C:StaticMeshComponent02' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.SKEL_StackedBoards_C:UserConstructionScript' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.SKEL_StackedBoards_C' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.StackedBoards_C:SharedRoot' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.StackedBoards_C:StaticMeshComponent0' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.StackedBoards_C:StaticMeshComponent01' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.StackedBoards_C:StaticMeshComponent02' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:687][880]LogMetaData: Removing '/Game/TopDownBP/Blueprints/StackedBoards.StackedBoards_C:UserConstructionScript' ref from Metadata '/Game/StackedBoards.PackageMetaData'
+[2018.10.24-05.54.20:880][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/StackedBoards" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/StackedBoards.uasset" SILENT=true
+[2018.10.24-05.54.20:905][880]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/StackedBoardsEA9AD77140FD564E385EADB1C2E43AE2.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Content/TopDownBP/Blueprints/StackedBoards.uasset'
+[2018.10.24-05.54.20:913][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StackedBoards" FILE="../../../../../../SourceTree/NightWatch/NightWatch/Content/StackedBoards.uasset" SILENT=true
+[2018.10.24-05.54.20:937][880]LogSavePackage: Moving '../../../../../../SourceTree/NightWatch/NightWatch/Saved/StackedBoards417ABA024E2C31D3C6081D9CD17A4306.tmp' to '../../../../../../SourceTree/NightWatch/NightWatch/Content/StackedBoards.uasset'
+[2018.10.24-05.54.32:878][ 58]LogSlate: Window 'Delete Assets' being destroyed
+[2018.10.24-05.54.32:959][ 58]LogSlate: Window 'Interactable' being destroyed
+[2018.10.24-05.54.38:993][485]LogTemp: Repeating last play command: Selected Viewport
+[2018.10.24-05.54.39:025][485]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.10.24-05.54.39:058][485]LogPlayLevel: [PlayLevel] Compiling NightWatchChar before play...
+[2018.10.24-05.54.39:081][485]LogPlayLevel: [PlayLevel]   Compiling Coroner as a dependent...
+[2018.10.24-05.54.39:082][485]LogPlayLevel: [PlayLevel]   Compiling Detective as a dependent...
+[2018.10.24-05.54.39:084][485]LogPlayLevel: [PlayLevel]   Compiling Muscle as a dependent...
+[2018.10.24-05.54.39:085][485]LogPlayLevel: [PlayLevel]   Compiling Toxicologist as a dependent...
+[2018.10.24-05.54.39:290][485]LogPlayLevel: [PlayLevel] Compiling HUD_EdgeScrolling before play...
+[2018.10.24-05.54.39:362][485]LogPlayLevel: [PlayLevel] Compiling TopDownController before play...
+[2018.10.24-05.54.39:392][485]LogPlayLevel: [PlayLevel] Compiling TopDownGameMode before play...
+[2018.10.24-05.54.39:430][485]LogPlayLevel: PlayLevel: Blueprint regeneration took 405 ms (8 blueprints)
+[2018.10.24-05.54.39:430][485]PIE: New page: PIE session: WillsTestMap (Oct 23, 2018, 9:54:39 PM)
+[2018.10.24-05.54.39:430][485]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap
+[2018.10.24-05.54.39:453][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022782s)
+[2018.10.24-05.54.39:454][485]LogAIModule: Creating AISystem for world WillsTestMap
+[2018.10.24-05.54.39:454][485]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2018.10.24-05.54.39:454][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/WillsTestMap.WillsTestMap to /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap (0.023777s)
+[2018.10.24-05.54.39:501][485]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.24-05.54.39:528][485]LogInit: FAudioDevice initialized.
+[2018.10.24-05.54.39:566][485]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.10.24-05.54.39:569][485]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.54.39:569][485]LogPhysics: Warning: ForeachShape(Convex): [/Game/Geometry/Meshes/1M_Cube_Chamfer.1M_Cube_Chamfer] ScaledElem[0] invalid
+[2018.10.24-05.54.39:572][485]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.54.39:572][485]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.54.39:572][485]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.54.39:572][485]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.54.39:572][485]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2018.10.24-05.54.39:572][485]LogPhysics: Warning: ForeachShape(Convex): [/Engine/BasicShapes/Cylinder.Cylinder] ScaledElem[0] invalid
+[2018.10.24-05.54.39:577][485]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap.WillsTestMap up for play (max tick rate 0) at 2018.10.24-01.54.39
+[2018.10.24-05.54.39:579][485]LogWorld: Bringing up level for play took: 0.011859
+[2018.10.24-05.54.39:593][485]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_WillsTestMap 0.456
+[2018.10.24-05.54.52:271][  1]LogBlueprintUserMessages: [Cube12] Hello
+[2018.10.24-05.54.57:935][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.54.57:975][680]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.10.24-05.54.58:008][680]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.24-05.54.58:066][682]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2018.10.24-05.54.59:715][878]LogEditorViewport: Clicking on Actor (LMB): StackedBoards_C (Cube12)
+[2018.10.24-05.55.06:280][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.10.24-05.55.10:010][703]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/Interactable.Interactable
+[2018.10.24-05.55.12:324][772]LogUObjectBase: Warning: Object is not registered
+[2018.10.24-05.55.13:395][772]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.070 s
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: === Handled ensure: ===
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: 
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1142]
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: Stack: 
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9e7bc71e6 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9e7900c82 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9e791b346 UE4Editor-Core.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9e1ee11db UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9e1ef060e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9f1edda3a UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9d952ec2a UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff9d94ef337 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ffa0bf68204 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ffa0c1ae933 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ffa0bfc281a UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ffa0bfbe788 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ffa0bfbdd17 UE4Editor-Slate.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff627056aa7 UE4Editor.exe!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff627065b3c UE4Editor.exe!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff627065bba UE4Editor.exe!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff627073dac UE4Editor.exe!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ff627075aaa UE4Editor.exe!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ffa55063034 KERNEL32.DLL!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: [Callstack] 0x00007ffa55841461 ntdll.dll!UnknownFunction []
+[2018.10.24-05.55.13:395][772]LogOutputDevice: Error: 
+[2018.10.24-05.55.13:399][772]LogStats:                SubmitErrorReport -  0.000 s
